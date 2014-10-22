@@ -12,4 +12,7 @@ From test 4, I reverted to using the original markup, but with the og:url and li
 I put test4.html through an HTML validator, and began fixing or removing the issues that showed up.
 
 ### Test 6 ###
-ok so test5 worked. I have reverted to test5 and made more judicious and less thorough changes.
+ok so test5 worked. I have reverted to test5 and made just a few changes, by removing only the code that looks the most suspect.
+
+### Test 7 ###
+Test 6 didn't work: It still broke. I have reverted test 6 and instead made different changes.
