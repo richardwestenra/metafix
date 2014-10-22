@@ -10,3 +10,6 @@ From test 4, I reverted to using the original markup, but with the og:url and li
 
 ### Test 5 ###
 I put test4.html through an HTML validator, and began fixing or removing the issues that showed up.
+
+### Test 6 ###
+ok so test5 worked. I have reverted to test5 and made more judicious and less thorough changes.
