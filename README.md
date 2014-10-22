@@ -22,3 +22,8 @@ Test 7 didn't work either. Test 8 continues from test 7 with new changes.
 
 ### Test 9 ###
 Test 8 didn't work either. Test 9 continues from test 8 with new changes.
+
+** Test 9 works. So the changes from test 8 to test 9 are necessary but perhaps not sufficient to fix the problem. ***
+
+# Conclusion: #
+To fix the issues, make the changes from test7 to test 9, while testing in the OG debugger. When this fixes the problem, begin reverting some of these changes to see if any of them fix it finally.
