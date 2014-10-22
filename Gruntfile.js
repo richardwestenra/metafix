@@ -326,9 +326,6 @@ module.exports = function (grunt) {
             'styles/fonts/{,*/}*.*',
             'social/{,*/}*.*'
           ]
-        }, {
-          src: 'node_modules/apache-server-configs/dist/.htaccess',
-          dest: '<%= config.dist %>/.htaccess'
         }]
       },
       styles: {
@@ -496,18 +493,18 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'clean:dist',
-    'wiredep',
-    'useminPrepare',
+    // 'wiredep',
+    // 'useminPrepare',
     'concurrent:dist',
-    'autoprefixer',
-    'concat',
-    'cssmin',
-    'uglify',
+    // 'autoprefixer',
+    // 'concat',
+    // 'cssmin',
+    // 'uglify',
     'copy:dist',
-    'modernizr',
-    'rev',
-    'usemin',
-    'htmlmin',
+    // 'modernizr',
+    // 'rev',
+    // 'usemin',
+    // 'htmlmin',
     'notify:build'
   ]);
 
@@ -531,7 +528,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default', [
     'newer:jshint',
-    'test',
+    // 'test',
     'build'
   ]);
 };
