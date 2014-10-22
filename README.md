@@ -16,3 +16,6 @@ ok so test5 worked. I have reverted to test5 and made just a few changes, by rem
 
 ### Test 7 ###
 Test 6 didn't work: It still broke. I have reverted test 6 and instead made different changes.
+
+### Test 8 ###
+Test 7 didn't work either. Test 8 continues from test 7 with new changes.
