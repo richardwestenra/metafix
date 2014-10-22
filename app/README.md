@@ -9,4 +9,4 @@ From test 4, I reverted to using the original markup, but with the og:url and li
 ** What I learned: It still throws issues. There is clearly something else going on with the markup. Test 3 works perfectly and Test 4 does not, so I just need to find the bit of code in test 4 that's throwing errors. ** 
 
 ### Test 5 ###
-I put test4.html through an HTML validator, and fixed or removed the issues that showed up.
+I put test4.html through an HTML validator, and began fixing or removing the issues that showed up.
