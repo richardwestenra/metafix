@@ -1,0 +1,2568 @@
+
+	<!DOCTYPE html><!--[if lt IE 7]>
+	<html class="no-js ie6 oldie" lang="en"> <![endif]--><!--[if IE 7]>
+	<html class="no-js ie7 oldie" lang="en"> <![endif]--><!--[if IE 8]>
+	<html class="no-js ie8 oldie" lang="en"> <![endif]--><!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<title>What Career Is Right For Me? - Rasmussen College</title>
+		<!-- <meta name="page_title" content="What Career Is Right For Me? An Interactive Road Map"> -->
+		<!-- <meta name="title" content="What Career Is Right For Me? An Interactive Road Map"> -->
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<!-- <link rel="canonical" href="http://www.rasmussen.edu/career-center/career-research-hub/what-career-is-right-for-me/" /> -->
+		<link href="https://plus.google.com/109424077248433930032" rel="publisher"/>
+		
+		<!--link href="/css/common.css" media="screen" rel="stylesheet" type="text/css"/-->
+
+		<link href="/css/reset.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="/css/elements.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="/css/webfonts.min.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="/css/nav.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="/css/global_ui_library.min.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="/css/header.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="/css/393_benefits_bar.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="/css/tabs-accordians.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="/royalslider/royalslider.min.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="/royalslider/rasmussen/rs-rasmussen.min.css" media="screen" rel="stylesheet" type="text/css"/>
+		<!--[if lt IE 8]>
+		<link href="/css/social_icons_ie7.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="/css/303_blog_template_ie7.min.css" media="screen" rel="stylesheet" type="text/css"/>
+		<![endif]-->
+		<link href="/css/social_icons_styles.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="/css/queryLoader.css" media="screen" rel="stylesheet" type="text/css"/>
+		<link href="/css/print.css" media="print" rel="stylesheet" type="text/css"/>
+																								
+		<link rel="SHORTCUT ICON" href="/images/favicon.ico"/>
+		<script src="/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+		<!-- GA Async -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3469152-15']);
+  _gaq.push(['_setDomainName', 'rasmussen.edu']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_setAllowHash', false]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- Google Analytics Social Button Tracking -->
+<script type="text/javascript">
+// Copyright 2011 Google Inc. All Rights Reserved.
+
+/**
+ * @fileoverview A simple script to automatically track Facebook and Twitter
+ * buttons using Google Analytics social tracking feature.
+ * @author api.nickm@google.com (Nick Mihailovski)
+ */
+
+
+/**
+ * Namespace.
+ * @type {Object}.
+ */
+var _ga = _ga || {};
+
+
+/**
+ * Ensure global _gaq Google Anlaytics queue has be initialized.
+ * @type {Array}
+ */
+
+
+
+/**
+ * Helper method to track social features. This assumes all the social
+ * scripts / apis are loaded synchronously. If they are loaded async,
+ * you might need to add the nextwork specific tracking call to the
+ * a callback once the network's script has loaded.
+ * @param {string} opt_pageUrl An optional URL to associate the social
+ *     tracking with a particular page.
+ * @param {string} opt_trackerName An optional name for the tracker object.
+ */
+_ga.trackSocial = function(opt_pageUrl, opt_trackerName) {
+  _ga.trackFacebook(opt_pageUrl, opt_trackerName);
+  _ga.trackTwitter(opt_pageUrl, opt_trackerName);
+};
+
+
+/**
+ * Tracks Facebook likes, unlikes and sends by suscribing to the Facebook
+ * JSAPI event model. Note: This will not track facebook buttons using the
+ * iFrame method.
+ * @param {string} opt_pageUrl An optional URL to associate the social
+ *     tracking with a particular page.
+ * @param {string} opt_trackerName An optional name for the tracker object.
+ */
+_ga.trackFacebook = function(opt_pageUrl, opt_trackerName) {
+  var trackerName = _ga.buildTrackerName_(opt_trackerName);
+  try {
+    if (FB && FB.Event && FB.Event.subscribe) {
+      FB.Event.subscribe('edge.create', function(targetUrl) {
+        _gaq.push([trackerName + '_trackSocial', 'facebook', 'like',
+            targetUrl, opt_pageUrl]);
+      });
+      FB.Event.subscribe('edge.remove', function(targetUrl) {
+        _gaq.push([trackerName + '_trackSocial', 'facebook', 'unlike',
+            targetUrl, opt_pageUrl]);
+      });
+      FB.Event.subscribe('message.send', function(targetUrl) {
+        _gaq.push([trackerName + '_trackSocial', 'facebook', 'send',
+            targetUrl, opt_pageUrl]);
+      });
+    }
+  } catch (e) {}
+};
+
+
+/**
+ * Returns the normalized tracker name configuration parameter.
+ * @param {string} opt_trackerName An optional name for the tracker object.
+ * @return {string} If opt_trackerName is set, then the value appended with
+ *     a . Otherwise an empty string.
+ * @private
+ */
+_ga.buildTrackerName_ = function(opt_trackerName) {
+  return opt_trackerName ? opt_trackerName + '.' : '';
+};
+
+
+/**
+ * Tracks everytime a user clicks on a tweet button from Twitter.
+ * This subscribes to the Twitter JS API event mechanism to listen for
+ * clicks coming from this page. Details here:
+ * http://dev.twitter.com/pages/intents-events#click
+ * This method should be called once the twitter API has loaded.
+ * @param {string} opt_pageUrl An optional URL to associate the social
+ *     tracking with a particular page.
+ * @param {string} opt_trackerName An optional name for the tracker object.
+ */
+_ga.trackTwitter = function(opt_pageUrl, opt_trackerName) {
+  var trackerName = _ga.buildTrackerName_(opt_trackerName);
+  try {
+    if (twttr && twttr.events && twttr.events.bind) {
+      twttr.events.bind('tweet', function(event) {
+        if (event) {
+          var targetUrl; // Default value is undefined.
+          if (event.target && event.target.nodeName == 'IFRAME') {
+            targetUrl = _ga.extractParamFromUri_(event.target.src, 'url');
+          }
+          _gaq.push([trackerName + '_trackSocial', 'twitter', 'tweet',
+            targetUrl, opt_pageUrl]);
+        }
+      });
+    }
+  } catch (e) {}
+};
+
+
+/**
+ * Extracts a query parameter value from a URI.
+ * @param {string} uri The URI from which to extract the parameter.
+ * @param {string} paramName The name of the query paramater to extract.
+ * @return {string} The un-encoded value of the query paramater. underfined
+ *     if there is no URI parameter.
+ * @private
+ */
+_ga.extractParamFromUri_ = function(uri, paramName) {
+  if (!uri) {
+    return;
+  }
+  var uri = uri.split('#')[0];  // Remove anchor.
+  var parts = uri.split('?');  // Check for query params.
+  if (parts.length == 1) {
+    return;
+  }
+  var query = decodeURI(parts[1]);
+
+  // Find url param.
+  paramName += '=';
+  var params = query.split('&');
+  for (var i = 0, param; param = params[i]; ++i) {
+    if (param.indexOf(paramName) === 0) {
+      return unescape(param.split('=')[1]);
+    }
+  }
+  return;
+};
+</script>
+
+
+		<script src="//cdn.optimizely.com/js/195833418.js"></script>
+		<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+		<script src="/js/cookies.js" type="text/javascript"></script>
+		<script src="/js/detect_mobile.js" type="text/javascript"></script>
+		<script src="/js/css_selector.js" type="text/javascript"></script>
+		<script src="/js/hoverIntent.js" type="text/javascript"></script>
+		<script src="/js/jquery.bgiframe.pack.js" type="text/javascript"></script>
+		<script src="/js/superfish.js" type="text/javascript"></script>
+		<script src="/js/supersubs.js" type="text/javascript"></script>
+		<script src="/js/jquery.pngFix.pack.js" type="text/javascript"></script>
+		<script src="/js/jquery-ui-1.8.13.custom.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="/js/jquery.scrollTo-1.4.2-min.js"></script>
+		<script type="text/javascript" src="/js/queryLoader.js"></script>
+		<script src="https://apis.google.com/js/plusone.js" type="text/javascript"></script>
+		<!--[if lt IE 7.]>
+		<script defer type="text/javascript" src="pngfix.js"></script><![endif]--><!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js" type="text/javascript"></script>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script><![endif]-->
+		<script type="text/javascript">
+			var lpMTagConfig = lpMTagConfig || {};
+			lpMTagConfig.vars = lpMTagConfig.vars || [];
+			lpMTagConfig.lpTagSrv = "sales.liveperson.net";
+			lpMTagConfig.lpServer = "sales.liveperson.net";
+			//lpMTagConfig.lpNumber = "29442693";
+			lpMTagConfig.lpNumber = "73608366";
+
+			lpMTagConfig.deploymentID = "Ras-general";
+
+			lpMTagConfig.vars.push(["page", "unit", "online-general"]);
+			lpMTagConfig.vars.push(["session", "language", "english"]);
+			lpMTagConfig.vars.push(["session", "PHLSpeed", "normal"]); //VALUE = slow, normal, or fast
+
+			// use one of the below lines for setting the appropriate site unit
+						//lpMTagConfig.vars.push(["page","unit","ras-educationonline"]);
+						//lpMTagConfig.vars.push(["page","unit","ras-businessonline"]);
+						//lpMTagConfig.vars.push(["page","unit","ras-justiceonline"]);
+						lpMTagConfig.vars.push(["page", "unit", "online-general"]);
+					</script>
+		<script src="/js/mtagconfig.js" type="text/javascript"></script>
+
+<!-- BEGIN: Marin Software Tracking Script -->
+
+<script type="text/javascript">
+    var _mTrack = _mTrack || [];
+    _mTrack.push(['trackPage']);
+
+    (function() {
+    	var mClientId = '4lc5apzfk0';
+    	var mProto = ('https:' == document.location.protocol ? 'https://' : 'http://');
+    	var mHost = 'tracker.marinsm.com';
+        var mt = document.createElement('script'); mt.type = 'text/javascript'; mt.async = true; mt.src = mProto + mHost + '/tracker/async/' + mClientId + '.js';
+    	var fscr = document.getElementsByTagName('script')[0]; fscr.parentNode.insertBefore(mt, fscr);
+    })();
+</script>
+
+<!-- END: Copyright Marin Software -->
+
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$('.scroll_anchor').click(function () {
+					if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+					|| location.hostname == this.hostname) {
+
+						var target = $(this.hash);
+						target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+						if (target.length) {
+							$('html,body').animate({
+								scrollTop: target.offset().top
+							}, 1000);
+							return false;
+						}
+					}
+				});
+				$.fn.labelFadeout = function () {
+					var q = function () {
+						var lh = $(this);
+						var lb = lh.siblings("label").children("span");
+						if (lh.val()) {
+							lb.hide()
+						} else {
+							lb.fadeIn("fast")
+						}
+					};
+					this.focus(function () {
+						q.call(this);
+						$(this).siblings("label").addClass("focus");
+					});
+					this.blur(function () {
+						q.call(this);
+						$(this).siblings("label").removeClass("focus");
+					});
+					this.keyup(q);
+					this.keydown(q);
+					this.change(q);
+					this.each(q);
+					return this;
+				}
+
+				$('*:contains("\u00ae")').each(function () {
+					if ($(this).children().length < 1)
+						$(this).html(
+						$(this).text().replace(/\u00ae/g, '<span class="reg-symbol">&reg;</span>'
+						)
+						)
+				});
+
+				$("#slidenav ul a:first").addClass("active");
+				$("#slidenav ul li:first").addClass("active");
+				//Get size of the image, how many images there are, then determin the size of the image reel.
+				var imageWidth = $(".window").width();
+				var imageSum = $(".widget_reel .widget").size();
+				var imageReelWidth = imageWidth * imageSum;
+
+				var megamenuWidth = "";
+
+				//Adjust the image reel to its new size
+				$(".widget_reel").css({'width': imageReelWidth});
+
+				$('a.tab').click(function () {
+					$viewportWidth = $(window).width();
+					//alert($viewportWidth);
+					$divElem = $(this).attr('href');
+					$('#parallax').scrollTo($divElem, 1000);
+					//$divElem2=$divElem+"2";
+					//alert($divElem2);
+					//$('#parallax').scrollTo($divElem2, 2200);
+					setPosition($divElem, '#background1', '0px', '1500px', '2400px');
+					setPosition($divElem, '#background2', '0px', '1200px', '1200px');
+					setPosition($divElem, '#background3', '0px', '1200px', '2400px');
+					setPosition($divElem, '#background4', '0px', '0px', '1200px');
+					//setPosition($divElem, '#background1', '0px', '1500px', '2400px');
+					//setPosition($divElem, '#background2', '0px', '1500px', '2220px')
+					//setPosition($divElem, '#background3', '0px', '1500px', '3150px')
+					$active = $(this);
+					$activeLi = $active.parent();
+					$('a.tab').removeClass('active');
+					$('li.active').removeClass('active');
+					$active.addClass('active');
+					$activeLi.addClass('active');
+//			clearInterval(play); //Stop the rotation
+					rotate(); //Trigger rotation immediately
+//			rotateSwitch(); // Resume rotation timer
+					return false;
+				});
+				$('#parallax').scrollTo($('#degree'), 1200);
+				//Paging  and Slider Function
+				rotate = function () {
+					var triggerID = $active.attr("rel") - 1; //Get number of times to slide
+					var image_reelPosition = triggerID * imageWidth; //Determines the distance the image reel needs to slide
+					//Slider Animation
+					$(".widget_reel").animate({
+						left: -image_reelPosition
+					}, 500);
+
+				};
+
+				if ($("li.chat a img").index() != -1)
+					$("li.chat a").hide();
+
+				//$("#footer-inner").append('<a class="wf-btn-request" href="#"></a>');
+				$("li.search a").click(function (event) {
+					if ($("#utility_panel_search").height() > 0) {
+						$("li.info a").show();
+					}
+					else {
+						$("li.info a").hide();
+					}
+					event.preventDefault();
+				});
+				$("#utility_panel_content_wrapper .closepanel a").click(function () {
+					$("li.info a").show();
+				});
+				$("li.info a, #footer-inner a.wf-btn-request, #footer-inner a.wf-btn-request-info").click(function () {
+					//trigger lightbox, client will provide the code.
+					//openLightBox ();
+					return false;
+				});
+				$("li.info a").click(function (event) {
+					//openLightBox ();
+					//prevent url hash from changing if user clicks on request program info
+					event.preventDefault();
+				});
+
+				//Append lightbox to end of page.
+				//	$("body").append('<div id="wf-form-request-lightbox"></div>');
+
+				//	$("#wf-form-request-lightbox").load("/RAS003-FE2/html/varD-lightbox.php",function(){
+				$(".label-fade-out input").labelFadeout();
+				//			$("#rasmussen-lb input[type=hidden]").each(function() {
+				//				$("#addDivWF").append("<input type='hidden' name='" + $(this).attr("name") + "' value='" + $(this).val() + "'>");
+				//			});
+				//	});
+
+				$("a#wf-btn-lightbox, .3col_control, #footer-inner a.wf-btn-request, .request_information, #request_info_link, .button_get_started").on("click", function () {
+					$(".label-fade-out input").removeClass("error");
+					$('#rasmussen-lb input[title]').each(function () {
+						if ($(this).val() === '') {
+							$(this).val($(this).attr('title'));
+						}
+
+						$(this).focus(function () {
+							if ($(this).val() === $(this).attr('title')) {
+								$(this).val('').addClass('focused');
+							}
+						});
+
+						$(this).blur(function () {
+							if ($(this).val() === '') {
+								$(this).val($(this).attr('title')).removeClass('focused');
+							}
+						});
+					});
+					// $("#wf-form-request-lightbox").modal({
+					// persist: true,
+					// onShow:function(dialog){$("#simplemodal-container").addClass("wf-modal");}});
+					openLightBox();
+					//Pre-populate the values from regular form to lightbox form
+					for (var i = 0; i < 5; i++) {
+						var t = $("#right #wf-form-request .label-fade-out input").eq(i).val();
+						//console.log(t);
+						if (t && t != "") {
+							$("#rasmussen-lb input[type=text]").eq(i).val(t);
+							//$("#wf-form-request-lightbox .label-fade-out").eq(i).children("label.text").children("span").hide();
+						}
+					}
+
+					return false;
+				});
+			});
+
+			function openLightBox() {
+				$('#form3col').lightbox_me({
+					appearEffect: "fadeIn",
+					centered: true
+				});
+			}
+			function setPosition(check, div, p1, p2, p3) {
+				//alert(check);
+				if (check === '#degree') {
+					$(div).scrollTo(p1, 1800);
+					//alert(div);
+					//alert(p1);
+
+				}
+				else if (check === '#location') {
+					$(div).scrollTo(p2, 1200);
+				}
+				else {
+					$(div).scrollTo(p3, 1000);
+				}
+			}
+			;
+		</script>
+
+				<!-- Begin Crazy Egg Code -->
+		<script type="text/javascript">
+			setTimeout(function () {
+				var a = document.createElement("script");
+				var b = document.getElementsByTagName("script")[0];
+				a.src = document.location.protocol + "//dnn506yrbagrg.cloudfront.net/pages/scripts/0004/4384.js?" + Math.floor(new Date().getTime() / 3600000);
+				a.async = true;
+				a.type = "text/javascript";
+				b.parentNode.insertBefore(a, b)
+			}, 1);
+		</script>
+		<!-- End Crazy Egg Code -->
+		<script type="text/javascript" src="/js/jquery.simplemodal.1.4.2.min.js"></script>
+		<script src="/js/jquery.lightbox_me.min.js" type="text/javascript"></script>
+		<script src="/js/jquerytools_tooltip.min.js" type="text/javascript"></script>
+		<script src="/js/jquerytools_tooltip.dynamic.js" type="text/javascript"></script>
+		<script src="/js/jquerytools_tooltip.slide.min.js" type="text/javascript"></script>
+		<script src="/js/jquery.plugin.contained_sticky_scroll.min.js" type="text/javascript"></script>
+		<script src="/royalslider/jquery.royalslider.min.js" type="text/javascript"></script>
+
+<meta name="description" content="Asking yourself the age-old question, 'What career is right for me?' Use this interactive career exploration tool from Rasmussen College to find out.">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What Career Is Right For Me? An Interactive Road Map">
+<meta name="twitter:description" content="When it comes to finding the career that’s right for you, there are many avenues you can travel down. Lucky for you, Rasmussen College has created this easy to use source for finding the career that’s best suited for you! Navigate it by scrolling down the page and entering in your personal touches to find your career.">
+<meta name="twitter:site" content="rasmussen">
+<meta name="twitter:domain" content="rasmussen.edu">
+<meta name="twitter:image:src" content="http://www.rasmussen.edu/career-roadmap/img/twitter.png">
+<script type="text/javascript">
+    var addthis_share = addthis_share || {};
+    addthis_share = {
+				passthrough : {
+					twitter: {
+						via: "rasmussen",
+                text: "Ready to Find What Career is Right for You? Read this First! – Rasmussen College Blog - "
+            }
+				}
+			};
+</script>
+
+<!-- G+ -->
+<meta itemprop="name" content='Ready to Find What Career is Right for You? Read This First!'>
+<meta itemprop="description" content="When it comes to finding the career that’s right for you, there are many avenues you can travel down. Lucky for you, Rasmussen College has created this easy to use source for finding the career that’s best suited for you! Navigate it by scrolling down the page and entering in your personal touches to find your career.">
+<meta itemprop="image" content="http://www.rasmussen.edu/career-roadmap/img/og200.png">
+
+<!-- Facebook Markup -->
+<meta property="og:title" content='Ready to Find What Career is Right for You? Read This First!'/>
+<meta property="og:description" content="When it comes to finding the career that’s right for you, there are many avenues you can travel down. Lucky for you, Rasmussen College has created this easy to use source for finding the career that’s best suited for you! Navigate it by scrolling down the page and entering in your personal touches to find your career."/>
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="http://www.rasmussen.edu/career-roadmap/img/og1200.png"/>
+<!-- <meta property="og:url" content="http://www.rasmussen.edu/resources/what-career-is-right-for-me/"/> -->
+
+<meta name="linkstant" content="10500108" />	</head>
+	<body>
+
+<link rel="stylesheet" type="text/css" media="screen" href="/career-roadmap/css/style.css">
+
+<div id="fullheightcontainer">
+    <div id="wrapper">
+        <div class="template_career_hub clearfix">
+
+            <div class="career_hub">
+                <div id='breadcrumb'><div><ul class='breadcrumbs'><li class="notCurrentPage"><a id="index" href="/">College Home</a></li><li class="notCurrentPage"><a id="career-center" href="/career-center/">Career Center</a></li><li class="notCurrentPage"><a id="career-research-hub" href="/career-center/career-research-hub/">Career Research Hub</a></li><li class="currentPage"><strong>What Career Is Right For Me?</strong></li></ul></div></div><div class='clear'></div> <div class="container_social_sharing sticky">
+	<!-- Social Sharing Content/Plugin goes here -->
+    <!-- AddThis Button BEGIN -->
+	<div class="addthis_toolbox addthis_floating_style addthis_counter_style" style="position:relative">
+	<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><script type="text/javascript">_ga.trackFacebook();</script><fb:like href="http://www.rasmussen.edu/career-center/career-research-hub/what-career-is-right-for-me/" send="false" width="450" show_faces="false" font="" layout="box_count"></fb:like>
+	<p>
+	<a href="http://developers.google.com/analytics" class="twitter-share-button" data-lang="en" data-count="vertical">Tweet</a>
+	<div class="g-plusone" data-size="tall"></div>
+        <!-- Place this tag after the last +1 button tag. -->
+        <script type="text/javascript">
+            (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/platform.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+        </script>
+    <br><br><br>
+
+	        <a href="//www.pinterest.com/pin/create/button/?url=http://www.rasmussen.edu/career-center/career-research-hub/what-career-is-right-for-me/&media=http://www.rasmussen.edu/images/resources/492_DataVis_Thumbnail.jpg&description=What Career Is Right For Me" data-pin-do="buttonPin" data-pin-config="above"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a>
+    	<p>
+	<a class="addthis_counter"></a>
+	</div><!-- /.addthis_toolbox -->
+	<script type="text/javascript">
+		var addthis_config = {
+		"data_ga_property": 'UA-3469152-15',
+		"data_track_clickback":true,
+		"data_ga_social" : true
+		};
+	</script>
+	<script type="text/javascript" charset="utf-8">
+	window.twttr = (function (d,s,id) {
+	  var t, js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+	  js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+	  return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+	}(document, "script", "twitter-wjs"));
+
+	function trackTwitter(intent_event) {
+	if (intent_event) {
+	  var opt_pagePath;
+	  if (intent_event.target && intent_event.target.nodeName == 'IFRAME') {
+			opt_target = extractParamFromUri(intent_event.target.src, 'url');
+	  }
+	  _gaq.push(['_trackSocial', 'twitter', 'tweet', opt_pagePath]);
+	}
+	}
+
+	//Wrap event bindings - Wait for async js to load
+	twttr.ready(function (twttr) {
+	//event bindings
+	twttr.events.bind('tweet', trackTwitter);
+	});
+
+	function extractParamFromUri(uri, paramName) {
+	if (!uri) {
+	return;
+	}
+	var regex = new RegExp('[\\?&#]' + paramName + '=([^&#]*)');
+	var params = regex.exec(uri);
+	if (params != null) {
+	return unescape(params[1]);
+	}
+	return;
+	}  
+	</script>  
+	<script type="text/javascript">
+	(function(d){
+	  var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+	  p.type = 'text/javascript';
+	  p.async = true;
+	  p.src = '//assets.pinterest.com/js/pinit.js';
+	  p.setAttribute('data-pin-hover', true);
+	  f.parentNode.insertBefore(p, f);
+	}(document));
+	</script>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#username=rasmussen"></script>
+</div><!-- /.container_social_sharing -->
+<!--
+<style>
+/* This gets Google to fall into place */
+.social {
+	font-size: 1px;
+}
+ 
+/* This gets Facebook to fall into place */
+.social iframe {
+	vertical-align: middle;
+}
+ 
+/* Set an optional width for your button wrappers */
+.social span {
+	display: inline-block;
+	width: 110px;
+}
+ 
+/* Adjust the widths individually if you like */
+.social .google {
+	width: 75px;
+}
+</style>
+
+<div class="social">
+	<span class="twitter">
+		<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.rasmussen.edu/career-center/career-research-hub/what-career-is-right-for-me/">Tweet</a>
+	</span>
+	<span class="google">
+		<g:plusone size="medium" href="http://www.rasmussen.edu/career-center/career-research-hub/what-career-is-right-for-me/"></g:plusone>
+	</span>
+	<span class="Facebook">
+		<iframe src="https://www.facebook.com/plugins/like.php?href=[your-url-here]&amp;show_faces=false&amp;layout=button_count" scrolling="no" frameborder="0" style="height: 21px; width: 100px" allowTransparency="true"></iframe>
+	</span>
+</div>
+-->
+
+                <!-- NBED: Custom HTML starts here: -->
+
+                <div id="rpath"
+                     data-_slide10_start--1000="background-color: rgb(198,203,169);"
+                     data-_slide10_start="background-color: rgb(255,255,255);"
+                     data-end="background-color: rgb(255,255,255);"
+                    >
+                    <div class="hexBgOutline white"
+                         data-_0="opacity: 1;"
+                         data-_slide10_start--500="opacity: 1;"
+                         data-_slide10_start-250="opacity: 0;"
+                         data-end="opacity: 0;"
+                        ></div>
+                    <div class="hexBgOutline grey"
+                         data-0="opacity: 0;"
+                         data-_slide10_start--1250="opacity: 0;"
+                         data-_slide10_start--500="opacity: 1;"
+                         data-end="opacity: 1;"
+                        ></div>
+                    <!--[if lt IE 9]>
+                    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a
+                        href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your
+                        experience.</p>
+                    <![endif]-->
+                    <p class="nojs browsehappy"><strong>This page requires JavaScript to function. Please turn it
+                            on!</strong></p>
+
+                    <div id="skrollr-body"></div>
+                    <!-- Support skrollr on mobile browsers -->
+
+                    <div id="rpath_containerTop">
+                        <div id="rpath_containerTop_inner" data-0="position: absolute;" data-104="position: fixed;">
+                            <h1 class="rpath_logo">Career RoadMap</h1>
+                            <a href="#footer" data-target="25000" class="scroll scroll-nav skipIntro"
+                               data-_slide9_end--250="opacity:1; margin-top: 0px;"
+                               data-_slide9_end="opacity:0; margin-top: -10px; display: block;"
+                               data-_slide9_end-1="display: none;"
+                                >skip to end</a>
+                        </div>
+                    </div>
+
+                    <div id="rpath_container">
+                        <div class="hexBgFill white"
+                             data-0="opacity: 1;"
+                             data-_slide10_start--500="opacity: 1;"
+                             data-_slide10_start-250="opacity: 0;"
+                             data-end="opacity: 0;"
+                            ></div>
+                        <div class="hexBgFill grey"
+                             data-0="opacity: 0;"
+                             data-_slide10_start--1250="opacity: 0;"
+                             data-_slide10_start--500="opacity: 1;"
+                             data-end="opacity: 1;"
+                            ></div>
+
+                        <a href="#" class="scroll scroll-prompt rpath_scrollPrompt_text" data-target="1500"
+                           data-0="opacity:1; margin-bottom: 0px;"
+                           data-150="opacity:0; margin-bottom: 20px; display: block;"
+                           data-151="display: none;"
+                            >Scroll or click to discover more</a>
+                        <a href="#" class="scroll scroll-prompt rpath_scrollPrompt" data-target="1500"
+                           data-_slide9_start="opacity:1;"
+                           data-_slide9_end--1="opacity:0; display: block;"
+                           data-_slide9_end="display: none;"></a>
+
+                        <div id="rpath_titles">
+                            <script id="titleTemplate" type="text/template">
+                                <p class="rpath_title <%= title_classes %>"
+                                   data-_slide<%= key %>_start--301="display: none;"
+                                   data-_slide<%= key %>_start--300="opacity:0; display: block;"
+                                   data-_slide<%= key %>_start="opacity:1;"
+                    <% if(key <4){ %>
+                         data-_slide<%= key %>_end="opacity:1; margin-top: 0px;"
+                                   data-_slide<%= key %>_end-200="opacity:0; margin-top: -40px; display: block;"
+                                   data-_slide<%= key %>_end-201="display: none;"
+                    <% } %>
+                ><%= text %></p>
+
+                <% if(key==4){ %>
+                    <p class="rpath_subtitle"
+                       data-_slide4_start--301="display: none;"
+                       data-_slide4_start--300="opacity:0; display: block;"
+                       data-_slide4_start="opacity:1;"
+                                    >Find your way to a new career. For help, click on the stepping stones along the
+                                    path.</p>
+                <% } %>
+            </script>
+                        </div>
+                        <div id="rpath_subtitles">
+                            <script id="subtitleTemplate" type="text/template">
+                                <p class="rpath_subtitle subtitle<%= key %>"
+                                   data-_slide<%= slide %>_start--301="display: none;"
+                                   data-_slide<%= slide %>_start--300="opacity:0; display: block;"
+                                   data-_slide<%= slide %>_start="opacity:1;"
+                                   data-_slide<%= slide %>_end="opacity:1; margin-left: 0px;"
+                                   data-_slide<%= slide %>_end-200="opacity:0; margin-left: -10px; display: block;"
+                                   data-_slide<%= slide %>_end-201="display: none;"
+                                    ><%= text %></p>
+                            </script>
+                        </div>
+                        <ul class="rpath_scrollNav">
+                            <script id="scrollNavTemplate" type="text/template">
+                                <li
+                                    >
+                                    <a href="#" data-target="<%= target %>" class="scroll scroll-nav">
+                                        <svg x="0px" y="0px" width="16.083px" height="18.333px"
+                                             viewBox="0 0 16.083 18.333" enable-background="new 0 0 16.083 18.333">
+                                            <polygon stroke-width="2" stroke-miterlimit="10"
+                                                     points="1.158,5.307 8.158,1.455 15.158,5.307 15.158,13.012 8.158,16.865 1.158,13.012 "
+                                                     data-_slide<%= key %>_start--300="fill-opacity: 0;"
+                                                     data-_slide<%= key %>_start="fill-opacity: 1;"
+                                <% if(key < rpath.navCount){ %>
+                                     data-_slide<%= key %>_end="fill-opacity: 1;"
+                                                     data-_slide<%= key %>_end-300="fill-opacity: 0;"
+                                <% } %>
+                            />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </script>
+                        </ul>
+
+                        <ul class="rpath_hexContainer">
+                            <script id="hexTemplate" type="text/template">
+                                <li data-key="<%= key %>" class="hex inactive <%= type %> <%= category %>"
+                    <% if(type != "title"){ %>
+                         data-_hexfade_start="opacity: 0.2"
+                                    data-_hexfade_end="opacity: 1"
+                    <% } %>
+                    <% if(type == "title"){ %>
+                         data-_shuffle_end--701="display: none;"
+                                    data-_shuffle_end--700="display: block; opacity:0; left:<%= left1 %>px; top:<%= top1 %>px;"
+                                    data-_shuffle_end--10="opacity:1; left:<%= left1 %>px; top:<%= top1 %>px;"
+                    <% } else { %>
+                         data-_shuffle_start="left:<%= left0 %>px; top:<%= top0 %>px;"
+                                    data-_shuffle_end="left:<%= left1 %>px; top:<%= top1 %>px;"
+                    <% } %>
+                    <% if(category != "motivation"){ %>
+                         data-_motivation_start="opacity:0.1;"
+                                    data-_<%= category %>_start--250="opacity:0.1;"
+                    <% } %>
+                     data-_<%= category %>_start="opacity:1;"
+                                    data-_<%= category %>_end="opacity:1;"
+                    <% if(category != "organisation"){ %>
+                         data-_<%= category %>_end-250="opacity:0.1;"
+                                    data-_organisation_end-251="opacity:0.1;"
+                    <% } %>
+                     data-_slide10_start="opacity:1;"
+                                    >
+                                    <a href="#">
+                                        <p class="<%= small %>"
+                        <% if(type != "title"){ %>
+                             data-_slide9_end="color: rgb(198,203,169);"
+                                           data-_slide10_start="color: rgb(255,255,255);"
+                        <% } %>
+                        ><%= name %></p>
+                                        <svg x="0px" y="0px" width="96px" height="109.349px" viewBox="0 0 96 109.349"
+                                             enable-background="new 0 0 96 109.349">
+                                            <polygon points="0,27.213 48,-0.164 96,27.213 96,81.97 48,109.349 0,81.97"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </script>
+                        </ul>
+
+                        <div class="rpath_ctaArrow"
+                             data-_slide9_end--1000="display: none;"
+                             data-_slide9_end--999="display: block;"
+                            >
+                            <script id="svgTemplate" type="text/template">
+                                <svg
+                                    class="<%= color %>"
+                                    data-_slide9_end-<%= startpoint %>="opacity:0; width: 0px; height: 0px; left:<%= left0 %>px; top:<%= top0 %>px;"
+                                    data-_slide10_start="opacity:1; width: <%= d1 %>; height: <%= d1 %>; left:<%= left1 %>px; top:<%= top1 %>px;"
+                                    x="0px" y="0px" width="96px" height="109.349px" viewBox="0 0 96 109.349"
+                                    enable-background="new 0 0 96 109.349">
+                                    <polygon fill-opacity="<%= opacity %>"
+                                             points="0,27.213 48,-0.164 96,27.213 96,81.97 48,109.349 0,81.97"/>
+                                </svg>
+                            </script>
+                            <h4 data-_slide9_end-600="opacity:0; left: -50px; top: 5px;"
+                                data-_slide10_start--100="opacity:1; left: 0px; top: 0px;"
+                                >The start of<br/> your new career</h4>
+                            <a href="#" class="trigger_explore" data-_slide9_end-800="opacity:0; left: -30px; top: -3px;" data-_slide10_start="opacity:1; left: 0px; top: 0px;" >Need more help? Speak to us.</a>
+                        </div>
+
+                        <div class="rpath_modal" style="display: none;">
+                            <span class="modal_hex"></span>
+                            <a class="rpath_close" href="#">Close</a>
+
+                            <div class="modal_content scrollPane"></div>
+                            <a class="modal_nav modal_nav-prev" href="#" title="Previous">Previous</a>
+                            <a class="modal_nav modal_nav-next" href="#" title="Next">Next</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- NBED: Custom HTML ends -->
+            </div><!-- /.career_hub -->
+        </div><!-- /.template_career_hub -->
+     </div><!-- /#wrapper -->
+    <div class="wrapper_form3col explore modal_content clearfix" id="form3col_explore">
+    <form class="form form3col clearfix" id="form3col_explore_form" action="/form_submit/contact-us" method="post">
+        <fieldset class="form_fieldset fieldset_main clearfix">
+            <legend class="clearfix">
+                <h3 class="form_headline form_headline_main">Chat one-on-one with a program manager</h3>
+            </legend>
+            <div class="col_benefits core">
+                <p>Let’s discuss your options together.</p>
+                <ul class="form_list_benefits clearfix">
+                    <li>Receive personalized career path guidance</li>
+                    <li>Explore what you need to land your dream job</li>
+                    <li>There is no obligation to enroll</li>
+                </ul>
+                <!-- /.form_list_benefits -->
+            </div>
+            <!-- /.col_benefits.core -->
+
+            <div class="col_education clearfix">
+                <fieldset class="form_fieldset fieldset_sub background_education">
+                    <legend class="clearfix">
+                        <h4 class="form_headline form_headline_sub">What would you like to study?</h4>
+                    </legend>
+                    <p class="entry">
+                        <label class="visuallyhidden" for="campus">Preferred Campus</label>
+                        <select id="campus_form3col_explore" name="campus" onchange="VMC_updateS1('school_form3col_explore',this,'')" title="Campus of Interest">
+                            <option value="" class="no_class">Preferred Campus</option>
+<option value="Undecided">Undecided</option>
+<optgroup label="Online Campus">
+	<option value="Online">Online</option>
+</optgroup>
+<optgroup label="Minnesota Campuses">
+	<option value="Blaine">Blaine</option>
+	<option value="EdenPrairie">Bloomington</option>
+	<option value="BrooklynPark">Brooklyn Park/Maple Grove</option>
+	<option value="Eagan">Eagan</option>
+	<option value="LakeElmo">Lake Elmo/Woodbury</option>
+	<option value="Mankato">Mankato</option>
+	<option value="Moorhead">Moorhead</option>
+	<option value="StCloud">St. Cloud</option>
+</optgroup>
+<optgroup label="Illinois Campuses">
+	<option value="Aurora">Aurora/Naperville</option>
+	<option value="Mokena">Mokena/Tinley Park</option>
+	<option value="Rockford">Rockford</option>
+	<option value="Romeoville">Romeoville/Joliet</option>
+</optgroup>
+<optgroup label="Florida Campuses">
+	<option value="FortMyers">Fort Myers</option>
+	<option value="Pasco">New Port Richey/West Pasco</option>
+    <option value="Ocala">Ocala</option>
+    <option value="PascoSun">Land O' Lakes/East Pasco</option>
+	<option value="Brandon">Tampa/Brandon</option>
+</optgroup>
+<optgroup label="Wisconsin Campuses">
+	<option value="Appleton">Appleton</option>
+	<option value="GreenBay">Green Bay</option>
+	<option value="Wausau">Wausau</option>
+</optgroup>
+<optgroup label="North Dakota Campuses">
+	<option value="Bismarck">Bismarck</option>
+	<option value="Fargo">Fargo</option>
+</optgroup>
+<optgroup label="Kansas Campuses">
+	<option value="OverlandPark">Kansas City/Overland Park</option>
+	<option value="Topeka">Topeka</option>
+</optgroup>
+                        </select>
+                    </p>
+                    <p class="entry">
+                        <label class="visuallyhidden" for="school_form3col_explore">I'm interested in...</label>
+                        <select id="school_form3col_explore" name="school" onchange="VMC_updateS('program_form3col_explore',this,'')" title="Select your school of interest">
+                            <option value="">I'm interested in...</option>
+                        </select>
+                    </p>
+                    <p class="entry">
+                        <label class="visuallyhidden" for="program_form3col_explore">Preferred Program</label>
+                        <select id="program_form3col_explore" name="program" title="Select your program of interest" class="wide">
+                            <option value="">Preferred Program </option>
+                        </select>
+                    </p>
+                </fieldset><!-- /.background_education -->
+
+                <fieldset class="form_fieldset fieldset_sub background_previous clearfix">
+                    <legend class="clearfix">
+                        <h4 class="form_headline form_headline_sub">Previous Education</h4>
+                    </legend>
+                    <select name="transfer" id="transfer_form3col_explore">
+                        <option value="">Select</option>
+                        <option value="0">None</option>
+                        <option value="1-23">Less than a year</option>
+                        <option value="24-59">1-2 years</option>
+                        <option value="Associates">Associate's</option>
+                        <option value="Bachelors">Bachelor's</option>
+                    </select>
+                </fieldset><!-- /.background_previous -->
+
+                <fieldset class="form_fieldset fieldset_sub background_howheard clearfix howhear_parent">
+                    <legend class="clearfix">
+                        <h4 class="form_headline form_headline_sub">How did you hear about us?</h4>
+                    </legend>
+                    <select id="howhear_form3col_explore" name="howhear" title="Please let us know how you heard about Rasmussen.">
+                        <option value="">Select</option>
+                        <option value="Billboard">Billboard</option>
+                        <option value="Corporate">Current Employer</option>
+                        <option value="Email">Email</option>
+                        <option value="Event">Event</option>
+                        <option value="Mailer">Mail</option>
+                        <option value="print">Print Advertisement</option>
+                        <option value="Referral">Referral</option>
+                        <option value="Radio">Radio</option>
+                        <option value="TV">TV</option>
+                        <option value="SE- Search Engine">Search Engine (Google, Yahoo, etc...)</option>
+                        <option value="Social">Social (Facebook, Twitter, etc...)</option>
+                        <option value="SE- Other">Other</option>
+                    </select>
+                </fieldset><!-- /.background_howheard -->
+            </div><!-- /.col_education -->
+
+            <div class="col_personal">
+                <fieldset class="form_fieldset fieldset_sub background_personal clearfix">
+                    <legend class="clearfix">
+                        <h4 class="form_headline form_headline_sub">How can we contact you?</h4>
+                    </legend>
+                    <p class="required_text errors var_error" id="error">Please complete all fields</p>
+                    <input type="hidden" name="filename" value="http://www.rasmussen.edu">
+                    <input type="hidden" name="successPage" value="http://www.rasmussen.edu/thankyou_rmi.php">
+                    <input type="hidden" name="validation" value="1413991463">
+                    <input type="hidden" name="formname" id="formname" value="ras - Sendmeinfo">
+                    <input type="hidden" name="subject" id="subject" value="School Site Request Info">
+                    <input type="hidden" name="start_date" id="start_date" value="10 New Lead">
+                    <input type="hidden" name="hdnEloquaSiteID_Rasmussen" value="2647">
+                    <input type="hidden" name="hdnEloquaCookie_Rasmussen" value="0">
+                    <input type="hidden" name="hdnEloquaCustomerGUID_Rasmussen" value="">
+                    <input type="hidden" name="hdnEloquaFormName_Rasmussen" value="requestDegreeInfo">
+                    <p class="entry">
+                        <input class="text" id="fname_form3col_explore" name="fname" type="text" title="First Name">
+                    </p>
+                    <p class="entry">
+                        <input class="text" id="lname_form3col_explore" name="lname" type="text" title="Last Name">
+                    </p>
+                    <p class="entry">
+                        <input class="text" id="email_form3col_explore" name="email" type="text" title="Email">
+                    </p>
+                    <p class="entry">
+                        <input class="text" id="home_phone_form3col_explore" name="home_phone" type="text" title="Phone">
+                    </p>
+                    <p class="entry">
+                        <input class="text" id="ziph_form3col_explore" name="ziph" type="text" title="ZIP Code">
+                    </p>
+                </fieldset><!-- /.personal-information -->
+            </div><!-- /.col_personal -->
+            <div class="field_submit clearfix">
+                <input class="button_cta primary" name="contact-us" value="Let’s Find Your Career" type="submit">
+            </div>
+            <!-- /.field-submit -->
+            <p class="disclaimer_text clearfix">
+                By requesting information, I authorize Rasmussen College to contact me by email, phone or text message at the number provided.
+            </p>
+        </fieldset>
+    </form>
+    <!-- /.form3col -->
+    <a class="close icon_sprite16" href="#"><span>close</span></a>
+</div><!-- /.wrapper_form3col_explore -->
+<script type="text/javascript">
+
+$(document).ready(function() {
+    //set phone number formating
+    $('#home_phone_form3col_explore').usphone();
+    $('#form3col').hide();
+    //$('.wf-btn-request-info').addClass('3col_core');
+    //$('.wf-btn-request-info').removeClass('wf-btn-request-info');
+
+});
+
+//Add field overlay
+$('#form3col_explore input[title]').each(function() {
+    if($(this).val() === '') {$(this).val($(this).attr('title'));}
+    $(this).focus(function() {
+        if($(this).val() === $(this).attr('title')) {$(this).val('').addClass('focused');}
+    });
+    $(this).blur(function() {
+        if($(this).val() === '') {$(this).val($(this).attr('title')).removeClass('focused');}
+    });
+});
+
+//Trigger light box
+$('.trigger_explore').click(function() {
+    $('#form3col_explore').lightbox_me({
+        appearEffect: "fadeIn",
+        centered: true
+    });
+    return false;
+});
+
+
+
+
+//Add parameters for PPC, SEO and Corporate
+form_id = '#form3col_explore';
+form_id_addon = 'form3col_explore';
+if ($.cookie('ras-param[campaign]') == 'SEO') {
+    $('<input>').attr({
+        type: 'hidden',
+        id: 'Source_'+form_id_addon,
+        name: 'Source',
+        value: 'School Site'}).appendTo(form_id);
+
+    $('<input>').attr({
+        type: 'hidden',
+        id: 'kwd_'+form_id_addon,
+        name: 'kwd',
+        value: $.cookie('ras-param[se_term]').replace(/\+/g," ")}).appendTo(form_id);
+
+    $('<input>').attr({
+        type: 'hidden',
+        id: 'engine_'+form_id_addon,
+        name: 'engine',
+        value: $.cookie('ras-param[se_engine]').replace(/\+/g," ")}).appendTo(form_id);
+
+    $(form_id+' select[name=howhear]').empty();
+    $(form_id+' select[name=howhear]').append($("<option />").val('SE- Search Engine').text('SE- Search Engine'));
+    $(form_id+' select[name=howhear]').selectedIndex=0;
+    $(form_id+' .howhear_parent').hide();
+
+} else if ($.cookie('ras-param[campaign]') == 'PPC') {
+
+    $('<input>').attr({
+        type: 'hidden',
+        id: 'Source_'+form_id_addon,
+        name: 'Source',
+        value: $.cookie('ras-param[Source]').replace(/\+/g," ")}).appendTo(form_id);
+
+    $('<input>').attr({
+        type: 'hidden',
+        id: 'kwd_'+form_id_addon,
+        name: 'kwd',
+        value: $.cookie('ras-param[kwd]').replace(/\+/g," ")}).appendTo(form_id);
+
+    $('<input>').attr({
+        type: 'hidden',
+        id: 'uadgroup_'+form_id_addon,
+        name: 'uadgroup',
+        value: $.cookie('ras-param[adgrp]').replace(/\+/g," ")}).appendTo(form_id);
+
+    $('<input>').attr({
+        type: 'hidden',
+        id: 'uadcampgn_'+form_id_addon,
+        name: 'uadcampgn',
+        value: $.cookie('ras-param[adcmp]').replace(/\+/g," ")}).appendTo(form_id);
+
+    $(form_id+' select[name=howhear]').empty();
+    $(form_id+' select[name=howhear]').append($("<option />").val('PPC').text('PPC'));
+    $(form_id+' select[name=howhear]').selectedIndex=0;
+    $(form_id+' .howhear_parent').hide();
+
+} else if ($.cookie('ras-param[corpLP]') == 'TRUE') {
+    $('<input>').attr({
+        type: 'hidden',
+        id: 'Source_'+form_id_addon,
+        name: 'Source',
+        value: 'School Site' }).appendTo(form_id);
+
+    $(form_id+' select[name=howhear]').empty();
+    $(form_id+' select[name=howhear]').append($("<option />").val('Corporate').text('Corporate'));
+    $(form_id+' select[name=howhear]').selectedIndex=0;
+    $(form_id+' .howhear_parent').hide();
+
+} else {
+
+    $('<input>').attr({
+        type: 'hidden',
+        id: 'Source_'+form_id_addon,
+        name: 'Source',
+        value: 'School Site' }).appendTo(form_id);
+
+}
+
+$("#form3col_explore").on("submit", function(){
+    var error = 0;
+    $("input[name=fname]",this).removeClass("error");
+    $("input[name=lname]",this).removeClass("error");
+    $("input[name=home_phone]",this).removeClass("error");
+    $("input[name=email]",this).removeClass("error");
+    $("input[name=ziph]",this).removeClass("error");
+
+    $("select[name=campus]",this).css('color','black');
+    $("select[name=school]",this).css('color','black');
+    $("select[name=program]",this).css('color','black');
+    $("select[name=transfer]",this).css('color','black');
+    $("select[name=howhear]",this).css('color','black');
+
+    if ($("input[name=fname]",this).val().length < 2 || $("input[name=fname]",this).val() == $("input[name=fname]",this).attr('title')) {
+        $("input[name=fname]",this).addClass("error");
+        error += 1;
+    }
+
+    if ($("input[name=lname]",this).val().length < 2 || $("input[name=lname]",this).val() == $("input[name=lname]",this).attr('title')) {
+        $("input[name=lname]",this).addClass("error");
+        error += 1;
+    }
+
+    if ($("input[name=home_phone]",this).val().length < 10) {
+        $("input[name=home_phone]",this).addClass("error");
+        error += 1;
+    }
+
+    if ($("input[name=email]",this).val().length < 4) {
+        $("input[name=email]",this).addClass("error");
+        error += 1;
+    }
+
+    if ($("input[name=ziph]",this).val().length < 5) {
+        $("input[name=ziph]",this).addClass("error");
+        error += 1;
+    }
+
+    //check for email format
+    var inputVal = $("input[name=email]",this).val();
+    //console.log(inputVal);
+    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+    if(!emailReg.test(inputVal)) {
+        $("input[name=email]",this).addClass("error");
+        error += 1;
+    }
+    //check for valid zip code
+    if (!$("input[name=ziph]",this).val().match(/(^\d{5}$)|(^\d{5}-\d{4}$)/)) {
+        $("input[name=ziph]",this).addClass("error");
+        error += 1;
+    }
+    //check for valid phone
+    if (!$("input[name=home_phone]",this).val().match(/^(\()?([0-9]{3})(\)|-)?([0-9]{3})(-)?([0-9]{4}|[0-9]{4})$/)) {
+        $("input[name=home_phone]",this).addClass("error");
+        error += 1;
+    }
+
+    if($("select[name=campus]",this).val() == "") {
+        $("select[name=campus]",this).css('color','red');
+        error += 1;
+    }
+    if($("select[name=school]",this).val() == "") {
+        $("select[name=school]",this).css('color','red');
+        error += 1;
+    }
+    if($("select[name=program]",this).val() == "") {
+        $("select[name=program]",this).css('color','red');
+        error += 1;
+    }
+    if($("select[name=transfer]",this).val() == "") {
+        $("select[name=transfer]",this).css('color','red');
+        error += 1;
+    }
+    if($("select[name=howhear]",this).val() == "") {
+        $("select[name=howhear]",this).css('color','red');
+        error += 1;
+    }
+
+
+    if(error > 0){
+        return false;
+    }
+
+
+});
+
+</script>    <div id="embed">
+        <h5>Love it? Embed it on your website or blog:</h5>
+        <a href="#" class="rpath_close embed_close">Close</a>
+        <!-- NBED - ensure that the URLs below are correct: -->
+        <textarea onClick="this.select();">&lt;a href=&quot;http://www.rasmussen.edu/resources/what-career-is-right-for-me/&quot;
+            target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.rasmussen.edu/NBED-url/img/embed.png&quot;
+            border=&quot;0&quot;
+            width=&quot;550&quot; height=&quot;550&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span style=&quot;font-size:
+            12px;&quot;&gt;Click image to open interactive version (via &lt;a href=&quot;http://www.rasmussen.edu/&quot;&gt;Rasmussen
+            College&lt;/a&gt;).&lt;/span&gt;</textarea>
+    </div>
+    <!-- /#embed -->
+
+    <script src="/career-roadmap/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.11/skrollr.min.js"></script>
+
+    <script>
+        window.jQuery || document.write('<script src="/career-roadmap/js/vendor/jquery-1.9.1.min.js"><\/script>');
+        window._ || document.write('<script src="/career-roadmap/js/vendor/underscore-1.4.4.min.js"><\/script>');
+        window.skrollr || document.write('<script src="/career-roadmap/js/vendor/skrollr.min.js"><\/script>');
+    </script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/career-roadmap/js/vendor/skrollr.ie.min.js"></script>
+    <![endif]-->
+
+    <script src="/career-roadmap/js/copy.js"></script>
+    <script src="/career-roadmap/js/plugins.js"></script>
+    <script src="/career-roadmap/js/main.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            rpath.init();
+        });
+    </script>
+<!-- BEGIN NEW HEADER -->
+<div id="header_mast">
+	<div class="viewport_safe clearfix">
+		<div class="logo" itemscope itemtype="http://schema.org/ImageObject">
+			<a href="/">
+				<img alt="Rasmussen College logo" class="" src="/images-new/logo-internal.png" itemprop="contentURL"/>
+				<!--img alt="Rasmussen College logo" class="" src="/images/header/logo-internal-date.png" itemprop="contentURL"/-->
+<!--				<img alt="Rasmussen College logo, A Public Benefit Institution" class="logo-pbi" src="/images/header/RClogo-modifier-pbi.png" itemprop="contentURL"/>-->
+				<span class="" itemprop="name">Rasmussen College</span>
+			</a>
+		</div>
+		<!-- /.logo -->
+						<ul class="utility_nav">
+			<li class="utility_item1"><a href="/student-login/">Student Login</a></li>
+			<li class="utility_item2">
+				<form class="global_search clearfix" method="get" action="/search" id="search_form">
+					<a href="#">
+						<label for="search" id="search_label">Search</label>
+					</a>
+					<input class="search text" id="search" class="text" type="text" name="s"/>
+					<input alt="Search" class="search_submit" type="submit" value="Search"/>
+				</form>
+				<!-- /.global_search -->
+			</li>
+			<li class="utility_item3"><a href="#" onclick="lpMTagConfig.dynButton0.actionHook();" class="chat_link">Live Chat</a></li>
+			<li class="utility_item4"><a href="tel:888-549-6755">Call 888-549-6755</a></li>
+		</ul>
+		<!-- /.utility_nav -->
+	</div>
+	<!-- /.viewport_safe -->
+	<nav class="site_nav" role="navigation">
+		<ul class="main_nav menu_tier1 viewport_safe clearfix">
+			<li class="menu_tier1_item tier1_item1">
+				<a href="/degrees/">Degrees</a>
+				<ul class="menu_tier2">
+					<div class="column50">
+						<li class="menu_tier2_item"><a href="/degrees/business/">School of Business</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/design/">School of Design</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/education/">School of Education</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/health-sciences/">School of Health Sciences</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/justice-studies/">School of Justice Studies</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/nursing/">School of Nursing</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/technology/">School of Technology</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/accreditation/">Accreditation</a></li>
+					</div>
+					<div class="column50">
+						<li class="menu_tier2_item"><a href="/degrees/accelerated/">AcceleratED</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/flex-choice/">Flex Choice</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/#tab1">Bachelor's</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/#tab2">Associate's</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/#tab3">Certificates and Diplomas</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/credential-ladder/">Credential Ladder</a></li>
+						<li class="menu_tier2_item"><a href="/degrees/course-catalog/">Course Catalog</a></li>
+                        <li class="menu_tier2_item"><a href="/degrees/academic-calendar/">Academic Calendar</a></li>
+					</div>
+				</ul>
+			</li>
+			<li class="menu_tier1_item tier1_item2 current_page">
+				<a href="/locations/">Locations</a>
+				<ul class="menu_tier2">
+					<div class="column33">
+						<li class="menu_tier2_item">
+							<a href="/locations/florida/">Florida</a>
+							<ul class="menu_tier3">
+								<li class="menu_tier3_item"><a href="/locations/florida/fort-myers">Fort Myers</a></li>
+								<li class="menu_tier3_item"><a href="/locations/florida/tampa/land-o-lakes/">Land O' Lakes/East Pasco</a></li>
+								<li class="menu_tier3_item"><a href="/locations/florida/tampa/new-port-richey/">New Port Richey/West Pasco</a></li>
+								<li class="menu_tier3_item"><a href="/locations/florida/ocala/">Ocala</a></li>
+								<li class="menu_tier3_item"><a href="/locations/florida/ocala/">Ocala School of Nursing</a>
+								</li>
+								<li class="menu_tier3_item"><a href="/locations/florida/tampa/tampa-brandon/">Tampa/Brandon</a></li>
+							</ul>
+						</li>
+						<li class="menu_tier2_item">
+							<a href="/locations/illinois/">Illinois</a>
+							<ul class="menu_tier3">
+								<li class="menu_tier3_item"><a href="/locations/illinois/aurora-naperville/">Aurora/Naperville</a>
+								</li>
+								<li class="menu_tier3_item"><a href="/locations/illinois/mokena-tinley-park/">Mokena/Tinley Park</a></li>
+								<li class="menu_tier3_item"><a href="/locations/illinois/rockford/">Rockford</a></li>
+								<li class="menu_tier3_item"><a href="/locations/illinois/romeoville-joliet/">Romeoville/Joliet</a>
+								</li>
+							</ul>
+						</li>
+					</div>
+					<div class="column33">
+						<li class="menu_tier2_item">
+							<a href="/locations/kansas/">Kansas</a>
+							<ul class="menu_tier3">
+								<li class="menu_tier3_item"><a href="/locations/kansas/kansas-city-overland-park/">Kansas City/Overland Park</a></li>
+								<li class="menu_tier3_item"><a href="/locations/kansas/topeka/">Topeka</a></li>
+							</ul>
+						</li>
+						<li class="menu_tier2_item">
+							<a href="/locations/minnesota/">Minnesota</a>
+							<ul class="menu_tier3">
+								<li class="menu_tier3_item"><a href="/locations/minnesota/twin-cities/blaine/">Blaine</a>
+								</li>
+								<li class="menu_tier3_item"><a href="/locations/minnesota/twin-cities/bloomington/">Bloomington</a>
+								</li>
+								<li class="menu_tier3_item"><a href="/locations/minnesota/twin-cities/brooklyn-park/">Brooklyn Park/Maple Grove</a></li>
+								<li class="menu_tier3_item"><a href="/locations/minnesota/twin-cities/eagan/">Eagan</a></li>
+								<li class="menu_tier3_item"><a href="/locations/minnesota/twin-cities/lake-elmo-woodbury/">Lake Elmo/Woodbury</a></li>
+								<li class="menu_tier3_item"><a href="/locations/minnesota/mankato/">Mankato</a></li>
+								<li class="menu_tier3_item"><a href="/locations/minnesota/moorhead/">Moorhead</a></li>
+								<li class="menu_tier3_item"><a href="/locations/minnesota/st-cloud/">St. Cloud</a></li>
+							</ul>
+						</li>
+					</div>
+					<div class="column33">
+						<li class="menu_tier2_item">
+							<a href="/locations/north-dakota/">North Dakota</a>
+							<ul class="menu_tier3">
+								<li class="menu_tier3_item"><a href="/locations/north-dakota/bismarck/">Bismarck</a></li>
+								<li class="menu_tier3_item"><a href="/locations/north-dakota/fargo/">Fargo</a></li>
+							</ul>
+						</li>
+						<li class="menu_tier2_item">
+							<a href="/locations/wisconsin/">Wisconsin</a>
+							<ul class="menu_tier3">
+								<li class="menu_tier3_item"><a href="/locations/wisconsin/appleton/">Appleton</a></li>
+								<li class="menu_tier3_item"><a href="/locations/wisconsin/green-bay/">Green Bay</a></li>
+								<li class="menu_tier3_item"><a href="/locations/wisconsin/wausau/">Wausau</a></li>
+							</ul>
+						</li>
+						<li class="menu_tier2_item"><a href="/locations/online-campus/">Online</a></li>
+					</div>
+				</ul>
+			</li>
+			<li class="menu_tier1_item tier1_item3">
+				<a href="/locations/online-campus/">Online</a>
+				<ul class="menu_tier2">
+					<li class="menu_tier2_item"><a href="/locations/online-campus/demo/">Online Demo</a></li>
+					<li class="menu_tier2_item"><a href="/locations/online-campus/community">Online Community</a></li>
+					<li class="menu_tier2_item"><a href="/locations/online-campus/degrees/">Degrees Offered</a></li>
+					<li class="menu_tier2_item"><a href="/locations/online-campus/faq/">FAQ</a></li>
+					<li class="menu_tier2_item"><a href="/locations/online-campus/faculty/">Faculty</a></li>
+				</ul>
+			</li>
+			<li class="menu_tier1_item tier1_item4">
+				<a href="/tuition/">Tuition</a>
+				<ul class="menu_tier2">
+					<li class="menu_tier2_item"><a href="/tuition/financial-aid/">Financial Aid</a></li>
+					<li class="menu_tier2_item"><a href="/tuition/student-loans-grants/">Student Loans and Grants</a></li>
+					<li class="menu_tier2_item">
+						<a href="/tuition/scholarship-opportunities/">Scholarship Opportunities</a>
+						<ul class="menu_tier3">
+							<li class="menu_tier3_item"><a href="/tuition/scholarship-opportunities/achieve/">Achieve Scholarship</a></li>
+							<li class="menu_tier3_item"><a href="/tuition/scholarship-opportunities/real-change/">Real/Change Scholarship</a></li>
+						</ul>
+					</li>
+					<li class="menu_tier2_item"><a href="/tuition/other-assistance/">Other Financial Assistance</a></li>
+					<li class="menu_tier2_item"><a href="/tuition/debt-loan-repayment/">Student Loan Management</a></li>
+					<li class="menu_tier2_item"><a href="/tuition/transfer-policy/">Transfer Policy</a></li>
+				</ul>
+			</li>
+			<li class="menu_tier1_item tier1_item5">
+				<a href="/student-life/">Student Life</a>
+				<ul class="menu_tier2">
+					<div class="column50">
+						<li class="menu_tier2_item"><a href="/student-life/online-community/">Social Community</a></li>
+						<li class="menu_tier2_item">
+							<a href="/student-life/events/">Events</a>
+							<ul class="menu_tier3">
+								<li class="menu_tier3_item"><a href="/student-life/events/careerfair/">Career Fair</a></li>
+							</ul>
+						</li>
+						<li class="menu_tier2_item"><a href="/student-life/graduation/">Graduation</a></li>
+						<li class="menu_tier2_item"><a href="/student-life/library-services/">Library Services</a></li>
+						<li class="menu_tier2_item"><a href="/student-life/student-support/">Support+</a></li>
+					</div>
+					<div class="column50">
+						<li class="menu_tier2_item">
+							<a href="/student-life/blogs/">Blogs</a>
+							<ul class="menu_tier3">
+								<li class="menu_tier3_item"><a href="/degrees/business/blog/">Business</a></li>
+								<li class="menu_tier3_item"><a href="/degrees/design/blog/">Design</a></li>
+								<li class="menu_tier3_item"><a href="/degrees/education/blog/">Education</a></li>
+								<li class="menu_tier3_item"><a href="/degrees/health-sciences/blog/">Health Sciences</a></li>
+								<li class="menu_tier3_item"><a href="/degrees/justice-studies/blog/">Justice Studies</a></li>
+								<li class="menu_tier3_item"><a href="/degrees/nursing/blog/">Nursing</a></li>
+								<li class="menu_tier3_item"><a href="/degrees/technology/blog/">Technology</a></li>
+								<li class="menu_tier3_item"><a href="/student-life/blogs/college-life/">College Life</a></li>
+								<li class="menu_tier3_item"><a href="/student-life/blogs/main/">News Beat</a></li>
+							</ul>
+						</li>
+				</ul>
+			</li>
+			<li class="menu_tier1_item tier1_item6">
+				<a href="/admissions/">Admissions</a>
+				<ul class="menu_tier2">
+<!--					<li class="menu_tier2_item"><a class="tabbed-link" href="/admissions#whyrasmussen">Why Rasmussen</a></li>-->
+					<li class="menu_tier2_item"><a class="tabbed-link" href="/admissions#adult">Adult Students</a></li>
+					<li class="menu_tier2_item"><a class="tabbed-link" href="/admissions#transfer">Transfer Students</a></li>
+					<li class="menu_tier2_item"><a class="tabbed-link" href="/admissions#nursing">Nursing Students</a></li>
+					<li class="menu_tier2_item"><a class="tabbed-link" href="/admissions#highschool">High School</a></li>
+					<li class="menu_tier2_item"><a class="tabbed-link" href="/admissions#military">Military Students</a></li>
+				</ul>
+			</li>
+			<li class="menu_tier1_item tier1_item7">
+				<a href="/career-center/">Career Center</a>
+				<ul class="menu_tier2">
+					<!--<li class="menu_tier2_item"><a href="#">Student Outcomes</a></li> -->
+					<li class="menu_tier2_item"><a href="/career-center/dream-real/">DreamReal</a></li>
+					<li class="menu_tier2_item"><a href="/career-center/career-research-hub/what-career-is-right-for-me/">Career Research Hub</a></li>
+					<li class="menu_tier2_item"><a href="/career-center/industry-career-job-guides/">Career Job Guides</a></li>
+					<li class="menu_tier2_item"><a href="/career-center/career-services/">Career Services</a></li>
+					<li class="menu_tier2_item">
+						<a href="/career-center/alumni/">Alumni</a>
+						<ul class="menu_tier3">
+							<li class="menu_tier3_item"><a href="/career-center/alumni/request-transcript/">Request Transcript</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="menu_tier1_item tier1_item8">
+				<a class="button_cta button_rpi primary" href="#">Request Program Info</a>
+			</li>
+		</ul>
+	</nav>
+</div><!-- /#header --><!-- //END NEW HEADER -->
+<script type="text/javascript">
+	$(document).ready(function () {
+		$('#fullheightcontainer').addClass('contains_benefitsbar');
+		$('#header_mast').show();
+
+		var mousedownHappened = false;
+
+		$('.search_submit').mousedown(function () {
+			mousedownHappened = true;
+		});
+
+
+		$('.utility_nav .global_search a').on('click', function () {
+			$('.utility_nav li input.search').show().focus(function () {
+				if ($('#search').val() != '') {
+					$('#search_label').hide();
+					$('.utility_nav li input.search_submit').fadeIn('slow').css({
+						'opacity': '1',
+						'visibility': 'visible'
+					});
+				} else {
+					$('#search_label').css({'position': 'absolute', 'padding': '5px'});
+				}
+				$('.utility_nav li input.search').show();
+				$('.utility_nav li input.search').animate({
+					'width': '150'
+				}, 'medium', function () {
+
+				});
+			}).blur(function () {
+				if (mousedownHappened == false) {
+					$('.utility_nav li input.search_submit').hide();
+					$('.utility_nav li input.search').animate({
+						'width': '0'
+					}, 'fast', function () {
+						$('.utility_nav li input.search').hide();
+						$('#search_label').css({'position': '', 'padding': '', 'display': 'inline'});
+						$('#search_label').show();
+					});
+				}
+			});
+		});
+
+		$('.utility_nav li input.search').bind("change keyup input", function (event) {
+			if ($(this).val().length > 0) {
+				$('#search_label').hide();
+				$('.utility_nav li input.search_submit').fadeIn('slow').css({
+					'opacity': '1',
+					'visibility': 'visible'
+				});
+				//Check if enter was pressed
+				var keycode = (event.keyCode ? event.keyCode : event.which);
+				if (keycode == '13') {
+					$('form#search_form').submit();
+				}
+			} else {
+				$('#search_label').css({'position': 'absolute', 'padding': '5px'});
+				$('#search_label').show();
+				$('.utility_nav li input.search_submit').fadeOut('slow').css({
+					'opacity': '0',
+					'visibility': 'hidden'
+				});
+			}
+		});
+
+		$('.button_rpi.primary').click(function () {
+			$('#rasmussen-lb input[title]').each(function () {
+				if ($(this).val() === '') {
+					$(this).val($(this).attr('title'));
+				}
+				$(this).focus(function () {
+					if ($(this).val() === $(this).attr('title')) {
+						$(this).val('').addClass('focused');
+					}
+				});
+				$(this).blur(function () {
+					if ($(this).val() === '') {
+						$(this).val($(this).attr('title')).removeClass('focused');
+					}
+				});
+			});
+			openLightBox();
+			return false;
+		});
+
+	});
+</script>
+
+
+
+<div class="clear"></div>
+<div id="footer">
+	<div class="clearfix" id="footer-inner">
+		<div class="footer-col1">
+			<h3><a href="/about-rasmussen-college/">About Us</a></h3>
+			<ul>
+				<li><a href="/about-rasmussen-college/careers/">Careers</a></li>
+				<li><a href="/about-rasmussen-college/contact-us/">Contact Us</a></li>
+				<li><a href="/about-rasmussen-college/rasmussen-history/">Our History</a></li>
+				<li><a href="/about-rasmussen-college/#pledge">Pledge of Public<br/>Accountability</a></li>
+				<li><a href="/about-rasmussen-college/press-and-media/">Press And Media</a></li>
+				<li><a href="/resources/">Resources</a></li>
+			</ul>
+		</div>
+		<!-- /.footer-col1 -->
+		<div class="footer-col2">
+			<ul>
+				<li><a href="/about-rasmussen-college/president-letter/">Letter from <br/>the President</a></li>
+				<li><a href="/about-rasmussen-college/corporate-responsibility/">Corporate Social <br/>Responsibility</a></li>
+				<li><a href="/about-rasmussen-college/leadership-team/">Board of Directors</a></li>
+				<li><a href="/about-rasmussen-college/rasmussen-story/">Rasmussen Story</a></li>
+			</ul>
+		</div>
+		<!-- /.footer-col2 -->
+		<div class="footer-col3">
+			<h3>Campus Locations</h3>
+			<ul>
+				<li><a href="/locations/florida/">Florida</a></li>
+				<li><a href="/locations/illinois/">Illinois</a></li>
+				<li><a href="/locations/kansas/">Kansas</a></li>
+				<li><a href="/locations/minnesota/">Minnesota</a></li>
+				<li><a href="/locations/north-dakota/">North Dakota</a></li>
+				<li><a href="/locations/wisconsin/">Wisconsin</a></li>
+			</ul>
+		</div>
+		<!-- /.footer-col3 -->
+		<div class="footer-col4">
+			<h3>Programs</h3>
+			<ul>
+				<li><a href="/degrees/business/">Business</a></li>
+				<li><a href="/degrees/design/">Design</a></li>
+				<li><a href="/degrees/education/">Education</a></li>
+				<li><a href="/degrees/allied-health/">Health Sciences</a></li>
+				<li><a href="/degrees/justice-studies/">Justice Studies</a></li>
+				<li><a href="/degrees/nursing/">Nursing</a></li>
+				<li><a href="/degrees/technology/">Technology</a></li>
+			</ul>
+		</div>
+		<!-- /.footer-col4 -->
+		<div class="footer-col5">
+			<h3>Follow Us</h3>
+			<ul class="social-footer">
+				<li class="sprite-blogs"><a href="http://www.rasmussen.edu/rss/" title="on our Blogs">
+						<span>on our Blogs</span>
+					</a></li>
+				<li class="sprite-facebook"><a href="http://www.facebook.com/rasmussencollege?ref=ts" title="on Facebook" target="_blank">
+						<span>on Facebook</span>
+					</a></li>
+				<li class="sprite-googleplus"><a href="https://plus.google.com/109424077248433930032/posts" title="on Google+" target="_blank">
+						<span>on GooglePlus</span>
+					</a></li>
+				<li class="sprite-linkedin"><a href="http://www.linkedin.com/company/rasmussen-college" title="on LinkedIn" target="_blank">
+						<span>on LinkedIn</span>
+					</a></li>
+				<li class="sprite-pinterest"><a href="http://pinterest.com/rascollege/" title="on Pinterest" target="_blank">
+						<span>on Pinterest</span>
+					</a></li>
+				<li class="sprite-twitter"><a href="http://twitter.com/rasmussen" title="on Twitter" target="_blank">
+						<span>on Twitter</span>
+					</a></li>
+				<li class="sprite-youtube"><a href="http://www.youtube.com/rasmussencollege" title="on Youtube" target="_blank">
+						<span>on Youtube</span>
+					</a></li>
+			</ul>
+			<div class="footer_sid">
+				<h4><a href="/student-investment-disclosure/">Student Investment Disclosure</a></h4>
+				<p><a href="/student-investment-disclosure/">Information about our graduation rates, median debt of students who completed the program, and other important information.</a>
+				</p>
+			</div>
+			<!-- /.footer_sid -->
+		</div>
+		<!-- /.footer-col5 -->
+	</div>
+	<!-- /#footer-inner -->
+	<div class="bottom-footer">
+		<div class="viewport_wide clearfix">
+			<div class="bottom-footer-left">
+				<p>Rasmussen College is a regionally accredited college authorized to operate as a postsecondary educational institution by the
+					<a target="_new" href="http://www.ibhe.org">Illinois Board of Higher Education</a>.
+				</p>
+			</div>
+			<!-- /.bottom-footer-left -->
+			<div class="bottom-footer-inner">
+				<ul>
+					<li><a href="/privacy-policy/">Privacy Policy</a></li>
+					<li><a href="/site-map/">Sitemap</a></li>
+					<li class="last-li">Copyright 2014 Rasmussen, Inc. All Rights Reserved.</li>
+				</ul>
+			</div>
+			<!-- /.bottom-footer-inner -->
+		</div>
+		<!-- /.viewport_wide -->
+	</div>
+	<!-- /.bottom-footer -->
+</div><!-- /#footer --></div>
+<script src="/js/program_list-M.js" type="text/javascript"></script>
+<script src="/js/program_list-N.js" type="text/javascript"></script>
+<script src="/js/validation_mappings.js" type="text/javascript"></script>
+<script src="/js/validation_functions.js" type="text/javascript"></script>
+<script src="/js/jquery.maskedinput-1.2.2.min.js" type="text/javascript"></script>
+<script src="/app/js/jquery.usphone.js"></script>
+
+<!-- on-page, lightbox form with 2014 updated messaging -->
+<div class="wrapper_form3col core modal_content " id="form3col">
+    <!-- standard, nursing, consultation -->
+    <form class="form form3col " id="form3col_form" action="/form_submit/contact-us" method="post">
+        <fieldset class="form_fieldset fieldset_main ">
+            <legend class="">
+                <h3 class="form_headline form_headline_main">Receive Personalized Information Today</h3>
+            </legend>
+            <div class="col_benefits core">
+                <ul class="form_list_benefits ">
+                    <li>Career path guidance</li>
+                    <li>Enrollment application</li>
+                    <li>Detailed course schedule</li>
+                    <li>Personalized financial aid</li>
+                    <li>No obligation to enroll</li>
+                </ul><!-- /.form_list_benefits -->
+            </div><!-- /.col_benefits.standard -->
+        
+            <div class="col_education ">
+                <fieldset class="form_fieldset fieldset_sub background_education">
+                    <legend class="">
+                        <h4 class="form_headline form_headline_sub">What would you like to study?</h4>
+                    </legend>
+                    <p class="entry">
+                        <label class="visuallyhidden" for="campus">Preferred Campus</label>
+                        <select id="campus_form3col" name="campus" onchange="VMC_updateS1('school_form3col',this,'')" title="Campus of Interest">
+                        <option value="" class="no_class">Preferred Campus</option>
+<option value="Undecided">Undecided</option>
+<optgroup label="Online Campus">
+	<option value="Online">Online</option>
+</optgroup>
+<optgroup label="Minnesota Campuses">
+	<option value="Blaine">Blaine</option>
+	<option value="EdenPrairie">Bloomington</option>
+	<option value="BrooklynPark">Brooklyn Park/Maple Grove</option>
+	<option value="Eagan">Eagan</option>
+	<option value="LakeElmo">Lake Elmo/Woodbury</option>
+	<option value="Mankato">Mankato</option>
+	<option value="Moorhead">Moorhead</option>
+	<option value="StCloud">St. Cloud</option>
+</optgroup>
+<optgroup label="Illinois Campuses">
+	<option value="Aurora">Aurora/Naperville</option>
+	<option value="Mokena">Mokena/Tinley Park</option>
+	<option value="Rockford">Rockford</option>
+	<option value="Romeoville">Romeoville/Joliet</option>
+</optgroup>
+<optgroup label="Florida Campuses">
+	<option value="FortMyers">Fort Myers</option>
+	<option value="Pasco">New Port Richey/West Pasco</option>
+    <option value="Ocala">Ocala</option>
+    <option value="PascoSun">Land O' Lakes/East Pasco</option>
+	<option value="Brandon">Tampa/Brandon</option>
+</optgroup>
+<optgroup label="Wisconsin Campuses">
+	<option value="Appleton">Appleton</option>
+	<option value="GreenBay">Green Bay</option>
+	<option value="Wausau">Wausau</option>
+</optgroup>
+<optgroup label="North Dakota Campuses">
+	<option value="Bismarck">Bismarck</option>
+	<option value="Fargo">Fargo</option>
+</optgroup>
+<optgroup label="Kansas Campuses">
+	<option value="OverlandPark">Kansas City/Overland Park</option>
+	<option value="Topeka">Topeka</option>
+</optgroup>
+                        </select>
+                    </p>
+                    <p class="entry">
+                        <label class="visuallyhidden" for="school_form3col">I'm interested in...</label>
+                        <select id="school_form3col" name="school" onchange="VMC_updateS('program_form3col',this,'')" title="Select your school of interest">
+                            <option value="">I'm interested in...</option>
+                        </select>
+                    </p>
+                    <p class="entry">
+                        <label class="visuallyhidden" for="program_form3col">Preferred Program</label>
+                        <select id="program_form3col" name="program" title="Select your program of interest" class="wide">
+                            <option value="">Preferred Program </option>
+                        </select>
+                    </p>
+                </fieldset><!-- /.background_education -->
+
+                <fieldset class="form_fieldset fieldset_sub background_previous ">
+                    <legend class="">
+                        <h4 class="form_headline form_headline_sub">Previous Education</h4>
+                    </legend>
+                    <select name="transfer" id="transfer_form3col">
+                        <option value="">Select</option>
+                        <option value="0">None</option>
+                        <option value="1-23">Less than a year</option>
+                        <option value="24-59">1-2 years</option>
+                        <option value="Associates">Associate's</option>
+                        <option value="Bachelors">Bachelor's</option>
+                    </select>
+                </fieldset><!-- /.background_previous -->
+
+                <fieldset class="form_fieldset fieldset_sub background_howheard  howhear_parent">
+                    <legend class="">
+                        <h4 class="form_headline form_headline_sub">How did you hear about us?</h4>
+                    </legend>
+                    <select id="howhear_form3col" name="howhear" title="Please let us know how you heard about Rasmussen.">
+                        <option value="">Select</option>
+                        <option value="Billboard">Billboard</option>
+                        <option value="Corporate">Current Employer</option>
+                        <option value="Email">Email</option>
+                        <option value="Event">Event</option>
+                        <option value="Mailer">Mail</option>
+                        <option value="print">Print Advertisement</option>
+                        <option value="Referral">Referral</option>
+                        <option value="Radio">Radio</option>
+                        <option value="TV">TV</option>
+                        <option value="SE- Search Engine">Search Engine (Google, Yahoo, etc...)</option>
+                        <option value="Social">Social (Facebook, Twitter, etc...)</option>
+                        <option value="SE- Other">Other</option>
+                    </select>
+                </fieldset><!-- /.background_howheard -->
+            </div><!-- /.col_education -->
+
+            <div class="col_personal">
+                <fieldset class="form_fieldset fieldset_sub background_personal ">
+                    <legend class="">
+                        <h4 class="form_headline form_headline_sub">How can we contact you?</h4>
+                    </legend>
+                    <p class="required_text errors var_error" id="error">Please complete all fields</p>
+                    <input type="hidden" name="filename" value="http://www.rasmussen.edu">
+                    <input type="hidden" name="successPage" value="http://www.rasmussen.edu/thankyou_rmi.php">
+                    <input type="hidden" name="validation" value="1413991463">
+                    <input type="hidden" name="formname" id="formname" value="ras - Sendmeinfo">
+                    <input type="hidden" name="subject" id="subject" value="School Site Request Info">
+                    <input type="hidden" name="start_date" id="start_date" value="10 New Lead">
+                    <input type="hidden" name="hdnEloquaSiteID_Rasmussen" value="2647">
+                    <input type="hidden" name="hdnEloquaCookie_Rasmussen" value="0">
+                    <input type="hidden" name="hdnEloquaCustomerGUID_Rasmussen" value="">
+                    <input type="hidden" name="hdnEloquaFormName_Rasmussen" value="requestDegreeInfo">
+                    <p class="entry">
+                        <input class="text" id="fname_form3col" name="fname" type="text" title="First Name">
+                    </p>
+                    <p class="entry">
+                        <input class="text" id="lname_form3col" name="lname" type="text" title="Last Name">
+                    </p>				
+                    <p class="entry">
+                        <input class="text" id="email_form3col" name="email" type="text" title="Email">
+                    </p>
+                    <p class="entry">
+                        <input class="text" id="home_phone_form3col" name="home_phone" type="text" title="Phone">
+                    </p>
+                    <p class="entry">
+                        <input class="text" id="ziph_form3col" name="ziph" type="text" title="ZIP Code">
+                    </p>
+                </fieldset><!-- /.personal-information -->
+            </div><!-- /.col_personal -->
+            <div class="field_submit ">
+                <input class="button_cta primary" name="contact-us" value="Request Information Now" type="submit">
+            </div><!-- /.field-submit -->
+            <p class="disclaimer_text ">
+                By requesting information, I authorize Rasmussen College to contact me by email, phone or text message at the number provided.
+            </p>
+        </fieldset>
+    </form><!-- /.form3col -->
+    <a class="close icon_sprite16" href="#"><span>close</span></a>
+</div><!-- /.wrapper_form3col -->
+<script type="text/javascript">
+
+	$(document).ready(function() {
+		//set phone number formating
+		$('#home_phone_form3col').usphone();
+		$('#form3col').hide();
+		//$('.wf-btn-request-info').addClass('3col_core');
+		//$('.wf-btn-request-info').removeClass('wf-btn-request-info');
+		
+	});
+	
+	//Add field overlay
+	$('#form3col_form input[title]').each(function() {
+	  if($(this).val() === '') {$(this).val($(this).attr('title'));}
+		$(this).focus(function() {
+		   if($(this).val() === $(this).attr('title')) {$(this).val('').addClass('focused');}
+		});
+		$(this).blur(function() {
+		   if($(this).val() === '') {$(this).val($(this).attr('title')).removeClass('focused');}
+		});
+	});
+		
+	//Trigger light box
+	$('.3col_core').click(function() {
+		$('#form3col').lightbox_me({
+			appearEffect: "fadeIn",
+			centered: true
+			});
+		return false;
+	});	
+	
+	
+	
+
+	//Add parameters for PPC, SEO and Corporate
+	form_id = '#form3col_form';
+	form_id_addon = 'form3col';
+	if ($.cookie('ras-param[campaign]') == 'SEO') {
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'Source_'+form_id_addon,
+		name: 'Source',
+		value: 'School Site'}).appendTo(form_id);
+		
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'kwd_'+form_id_addon,
+		name: 'kwd',
+		value: $.cookie('ras-param[se_term]').replace(/\+/g," ")}).appendTo(form_id);
+
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'engine_'+form_id_addon,
+		name: 'engine',
+		value: $.cookie('ras-param[se_engine]').replace(/\+/g," ")}).appendTo(form_id);
+
+		$(form_id+' select[name=howhear]').empty();
+		$(form_id+' select[name=howhear]').append($("<option />").val('SE- Search Engine').text('SE- Search Engine'));
+		$(form_id+' select[name=howhear]').selectedIndex=0;
+		$(form_id+' .howhear_parent').hide();
+		
+	} else if ($.cookie('ras-param[campaign]') == 'PPC') {
+
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'Source_'+form_id_addon,
+		name: 'Source',
+		value: $.cookie('ras-param[Source]').replace(/\+/g," ")}).appendTo(form_id);
+		
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'kwd_'+form_id_addon,
+		name: 'kwd',
+		value: $.cookie('ras-param[kwd]').replace(/\+/g," ")}).appendTo(form_id);
+
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'uadgroup_'+form_id_addon,
+		name: 'uadgroup',
+		value: $.cookie('ras-param[adgrp]').replace(/\+/g," ")}).appendTo(form_id);
+
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'uadcampgn_'+form_id_addon,
+		name: 'uadcampgn',
+		value: $.cookie('ras-param[adcmp]').replace(/\+/g," ")}).appendTo(form_id);
+
+		$(form_id+' select[name=howhear]').empty();
+		$(form_id+' select[name=howhear]').append($("<option />").val('PPC').text('PPC'));
+		$(form_id+' select[name=howhear]').selectedIndex=0;
+		$(form_id+' .howhear_parent').hide();
+	
+	} else if ($.cookie('ras-param[corpLP]') == 'TRUE') {
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'Source_'+form_id_addon,
+		name: 'Source',
+		value: 'School Site' }).appendTo(form_id);
+
+		$(form_id+' select[name=howhear]').empty();
+		$(form_id+' select[name=howhear]').append($("<option />").val('Corporate').text('Corporate'));
+		$(form_id+' select[name=howhear]').selectedIndex=0;
+		$(form_id+' .howhear_parent').hide();	
+		
+	} else {
+		
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'Source_'+form_id_addon,
+		name: 'Source',
+		value: 'School Site' }).appendTo(form_id);
+
+	}		
+
+$("#form3col_form").on("submit", function(){
+	var error = 0;
+	$("input[name=fname]",this).removeClass("error");
+	$("input[name=lname]",this).removeClass("error");
+	$("input[name=home_phone]",this).removeClass("error");
+	$("input[name=email]",this).removeClass("error");
+	$("input[name=ziph]",this).removeClass("error");
+	
+	$("select[name=campus]",this).css('color','black');
+	$("select[name=school]",this).css('color','black');
+	$("select[name=program]",this).css('color','black');
+	$("select[name=transfer]",this).css('color','black');
+	$("select[name=howhear]",this).css('color','black');
+
+	if ($("input[name=fname]",this).val().length < 2 || $("input[name=fname]",this).val() == $("input[name=fname]",this).attr('title')) {
+		$("input[name=fname]",this).addClass("error");
+		error += 1;
+	}
+
+	if ($("input[name=lname]",this).val().length < 2 || $("input[name=lname]",this).val() == $("input[name=lname]",this).attr('title')) {
+		$("input[name=lname]",this).addClass("error");
+		error += 1;
+	}
+	
+	if ($("input[name=home_phone]",this).val().length < 10) {
+		$("input[name=home_phone]",this).addClass("error");
+		error += 1;
+	}
+
+	if ($("input[name=email]",this).val().length < 4) {
+		$("input[name=email]",this).addClass("error");
+		error += 1;
+	}
+
+	if ($("input[name=ziph]",this).val().length < 5) {
+		$("input[name=ziph]",this).addClass("error");
+		error += 1;
+	}
+	
+	//check for email format
+	var inputVal = $("input[name=email]",this).val();
+	//console.log(inputVal);
+	var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+	if(!emailReg.test(inputVal)) {
+		$("input[name=email]",this).addClass("error");
+		error += 1;
+	}
+	//check for valid zip code
+	 if (!$("input[name=ziph]",this).val().match(/(^\d{5}$)|(^\d{5}-\d{4}$)/)) {
+		$("input[name=ziph]",this).addClass("error");
+		error += 1;
+	}
+	//check for valid phone
+	 if (!$("input[name=home_phone]",this).val().match(/^(\()?([0-9]{3})(\)|-)?([0-9]{3})(-)?([0-9]{4}|[0-9]{4})$/)) {
+		$("input[name=home_phone]",this).addClass("error");
+		error += 1;
+	}
+	
+	if($("select[name=campus]",this).val() == "") {
+		$("select[name=campus]",this).css('color','red');
+		error += 1;
+	}		
+	if($("select[name=school]",this).val() == "") {
+		$("select[name=school]",this).css('color','red');
+		error += 1;
+	}	
+	if($("select[name=program]",this).val() == "") {
+		$("select[name=program]",this).css('color','red');
+		error += 1;
+	}		
+	if($("select[name=transfer]",this).val() == "") {
+		$("select[name=transfer]",this).css('color','red');
+		error += 1;
+	}		 
+	if($("select[name=howhear]",this).val() == "") {
+		$("select[name=howhear]",this).css('color','red');
+		error += 1;
+	}	
+
+	 
+	if(error > 0){
+		return false;
+	}
+		
+	
+});	
+	
+</script><!-- on-page, lightbox form with 2014 updated messaging -->
+<div class="wrapper_form3col consultation modal_content clearfix" id="form3col_consultation">
+    <form class="form form3col clearfix" id="form3col_consultation_form" action="/form_submit/contact-us" method="post">
+        <fieldset class="form_fieldset fieldset_main clearfix">
+            <legend class="clearfix">
+                <h3 class="form_headline form_headline_main">Receive Personalized Information Today</h3>
+            </legend>
+            <div class="col_benefits core">
+                <ul class="form_list_benefits clearfix">
+                    <li>Career path guidance</li>
+                    <li>Enrollment application</li>
+                    <li>Detailed course schedule</li>
+                    <li>Personalized financial aid</li>
+                    <li>No obligation to enroll</li>
+                </ul><!-- /.form_list_benefits -->
+            </div><!-- /.col_benefits.core -->     
+
+            <div class="col_personal">
+                <fieldset class="form_fieldset fieldset_sub background_personal clearfix">
+                    <legend class="clearfix">
+                        <h4 class="form_headline form_headline_sub">How can we contact you?</h4>
+                    </legend>
+                    <p class="required_text errors var_error" id="error">Please complete all fields</p>
+                    <input type="hidden" name="filename" value="http://www.rasmussen.edu">
+                    <input type="hidden" name="successPage" value="http://www.rasmussen.edu/thankyou_rmi.php">
+                    <input type="hidden" name="validation" value="1413991463">
+                    <input type="hidden" name="formname" id="formname" value="ras - Sendmeinfo">
+                    <input type="hidden" name="subject" id="subject" value="School Site Request Info">
+                    <input type="hidden" name="start_date" id="start_date" value="10 New Lead">
+                    <input type="hidden" name="hdnEloquaSiteID_Rasmussen" value="2647">
+                    <input type="hidden" name="hdnEloquaCookie_Rasmussen" value="0">
+                    <input type="hidden" name="hdnEloquaCustomerGUID_Rasmussen" value="">
+                    <input type="hidden" name="hdnEloquaFormName_Rasmussen" value="requestDegreeInfo">
+					<input type="hidden" name="campus" value="Undecided">
+					<input type="hidden" name="program" value="Undecided">
+					<input type="hidden" name="school" value="Undecided">
+					<!--<input type="hidden" name="source" value="">
+					<input type="hidden" name="kwd" value="">
+					<input type="hidden" name="engine" value="">
+					<input type="hidden" name="uadgroup" value="">
+					<input type="hidden" name="uadcampgn" value="">-->
+					
+                    <p class="entry">
+                        <input class="text" id="fname_consultation" name="fname" type="text" title="First Name">
+                    </p>
+                    <p class="entry">
+                        <input class="text" id="lname_consultation" name="lname" type="text" title="Last Name">
+                    </p>				
+                    <p class="entry">
+                        <input class="text" id="email_consultation" name="email" type="text" title="Email">
+                    </p>
+                    <p class="entry">
+                        <input class="text" id="home_phone_consultation" name="home_phone" type="text" title="Phone">
+                    </p>
+                    <p class="entry">
+                        <input class="text" id="ziph_consultation" name="ziph" type="text" title="ZIP Code">
+                    </p>
+                </fieldset><!-- /.personal-information -->
+                <fieldset class="form_fieldset fieldset_sub background_howheard clearfix howhear_parent">
+                    <legend class="clearfix">
+                        <h4 class="form_headline form_headline_sub">How did you hear about us?</h4>
+                    </legend>
+                    <select id="howhear_consultation" name="howhear" title="Please let us know how you heard about Rasmussen.">
+                        <option value="">Select</option>
+                        <option value="Billboard">Billboard</option>
+                        <option value="Corporate">Current Employer</option>
+                        <option value="Email">Email</option>
+                        <option value="Event">Event</option>
+                        <option value="Mailer">Mail</option>
+                        <option value="print">Print Advertisement</option>
+                        <option value="Referral">Referral</option>
+                        <option value="Radio">Radio</option>
+                        <option value="TV">TV</option>
+                        <option value="SE- Search Engine">Search Engine (Google, Yahoo, etc...)</option>
+                        <option value="Social">Social (Facebook, Twitter, etc...)</option>
+                        <option value="SE- Other">Other</option>
+                    </select>
+                </fieldset><!-- /.background_howheard -->
+            </div><!-- /.col_personal -->
+            <div class="field_submit clearfix">
+                <input class="button_cta primary" name="contact-us" value="Request Information Now" type="submit">
+            </div><!-- /.field-submit -->
+            <p class="disclaimer_text clearfix">
+                By requesting information, I authorize Rasmussen College to contact me by email, phone or text message at the number provided.
+            </p>
+        </fieldset>
+    </form><!-- /.form3col -->
+    <a class="close icon_sprite16" href="#"><span>close</span></a>
+</div><!-- /.wrapper_form3col -->
+<script type="text/javascript">
+
+	$(document).ready(function() {
+        $('#form3col_consultation').hide();
+		//set phone number formating
+		$('#home_phone_consultation').usphone();
+	});
+	
+	//Add field overlay
+	$('#form3col_consultation_form input[title]').each(function() {
+	  if($(this).val() === '') {$(this).val($(this).attr('title'));}
+		$(this).focus(function() {
+		   if($(this).val() === $(this).attr('title')) {$(this).val('').addClass('focused');}
+		});
+		$(this).blur(function() {
+		   if($(this).val() === '') {$(this).val($(this).attr('title')).removeClass('focused');}
+		});
+	});
+		
+	//Trigger light box
+	$('.flip_consult').click(function() {
+		$('#form3col_consultation').lightbox_me({
+			appearEffect: "fadeIn",
+			centered: true
+			});
+		return false;
+	});
+	
+
+	//Add parameters for PPC, SEO and Corporate
+	form_id = '#form3col_consultation_form';
+	form_id_addon = 'consultation';
+	if ($.cookie('ras-param[campaign]') == 'SEO') {
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'Source_'+form_id_addon,
+		name: 'Source',
+		value: 'School Site'}).appendTo(form_id);
+		
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'kwd_'+form_id_addon,
+		name: 'kwd',
+		value: $.cookie('ras-param[se_term]').replace(/\+/g," ")}).appendTo(form_id);
+
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'engine_'+form_id_addon,
+		name: 'engine',
+		value: $.cookie('ras-param[se_engine]').replace(/\+/g," ")}).appendTo(form_id);
+
+		$(form_id+' select[name=howhear]').empty();
+		$(form_id+' select[name=howhear]').append($("<option />").val('SE- Search Engine').text('SE- Search Engine'));
+		$(form_id+' select[name=howhear]').selectedIndex=0;
+		$(form_id+' .howhear_parent').hide();
+		
+	} else if ($.cookie('ras-param[campaign]') == 'PPC') {
+
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'Source_'+form_id_addon,
+		name: 'Source',
+		value: $.cookie('ras-param[Source]').replace(/\+/g," ")}).appendTo(form_id);
+		
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'kwd_'+form_id_addon,
+		name: 'kwd',
+		value: $.cookie('ras-param[kwd]').replace(/\+/g," ")}).appendTo(form_id);
+
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'uadgroup_'+form_id_addon,
+		name: 'uadgroup',
+		value: $.cookie('ras-param[adgrp]').replace(/\+/g," ")}).appendTo(form_id);
+
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'uadcampgn_'+form_id_addon,
+		name: 'uadcampgn',
+		value: $.cookie('ras-param[adcmp]').replace(/\+/g," ")}).appendTo(form_id);
+
+		$(form_id+' select[name=howhear]').empty();
+		$(form_id+' select[name=howhear]').append($("<option />").val('PPC').text('PPC'));
+		$(form_id+' select[name=howhear]').selectedIndex=0;
+		$(form_id+' .howhear_parent').hide();
+		
+	} else if ($.cookie('ras-param[corpLP]') == 'TRUE') {
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'Source_'+form_id_addon,
+		name: 'Source',
+		value: 'School Site' }).appendTo(form_id);
+
+		$(form_id+' select[name=howhear]').empty();
+		$(form_id+' select[name=howhear]').append($("<option />").val('Corporate').text('Corporate'));
+		$(form_id+' select[name=howhear]').selectedIndex=0;
+		$(form_id+' .howhear_parent').hide();	
+		
+	} else {
+		
+		$('<input>').attr({
+		type: 'hidden',
+		id: 'Source_'+form_id_addon,
+		name: 'Source',
+		value: 'School Site' }).appendTo(form_id);
+
+	}	
+
+$("#form3col_consultation_form").on("submit", function(){
+	var error = 0;
+	$("input[name=fname]",this).removeClass("error");
+	$("input[name=lname]",this).removeClass("error");
+	$("input[name=home_phone]",this).removeClass("error");
+	$("input[name=email]",this).removeClass("error");
+	$("input[name=ziph]",this).removeClass("error");
+	
+	$("select[name=howhear]",this).css('color','black');
+
+	if ($("input[name=fname]",this).val().length < 2 || $("input[name=fname]",this).val() == $("input[name=fname]",this).attr('title')) {
+		$("input[name=fname]",this).addClass("error");
+		error += 1;
+	}
+
+	if ($("input[name=lname]",this).val().length < 2 || $("input[name=lname]",this).val() == $("input[name=lname]",this).attr('title')) {
+		$("input[name=lname]",this).addClass("error");
+		error += 1;
+	}
+	
+	if ($("input[name=home_phone]",this).val().length < 10) {
+		$("input[name=home_phone]",this).addClass("error");
+		error += 1;
+	}
+
+	if ($("input[name=email]",this).val().length < 4) {
+		$("input[name=email]",this).addClass("error");
+		error += 1;
+	}
+
+	if ($("input[name=ziph]",this).val().length < 5) {
+		$("input[name=ziph]",this).addClass("error");
+		error += 1;
+	}
+	
+	//check for email format
+	var inputVal = $("input[name=email]",this).val();
+	//console.log(inputVal);
+	var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+	if(!emailReg.test(inputVal)) {
+		$("input[name=email]",this).addClass("error");
+		error += 1;
+	}
+	//check for valid zip code
+	 if (!$("input[name=ziph]",this).val().match(/(^\d{5}$)|(^\d{5}-\d{4}$)/)) {
+		$("input[name=ziph]",this).addClass("error");
+		error += 1;
+	}
+	//check for valid phone
+	 if (!$("input[name=home_phone]",this).val().match(/^(\()?([0-9]{3})(\)|-)?([0-9]{3})(-)?([0-9]{4}|[0-9]{4})$/)) {
+		$("input[name=home_phone]",this).addClass("error");
+		error += 1;
+	}
+	
+	// if($("select[name=campus]",this).val() == "") {
+		// $("select[name=campus]",this).css('color','red');
+		// error += 1;
+	// }		
+	// if($("select[name=school]",this).val() == "") {
+		// $("select[name=school]",this).css('color','red');
+		// error += 1;
+	// }	
+	// if($("select[name=program]",this).val() == "") {
+		// $("select[name=program]",this).css('color','red');
+		// error += 1;
+	// }		
+	// if($("select[name=transfer]",this).val() == "") {
+		// $("select[name=transfer]",this).css('color','red');
+		// error += 1;
+	// }		 
+	if($("select[name=howhear]",this).val() == "") {
+		$("select[name=howhear]",this).css('color','red');
+		error += 1;
+	}	
+	 
+	if(error > 0){
+		return false;
+	}
+		
+	
+});	
+	
+</script><script type="text/javascript">
+	$(function () {
+		$("div#utility_panel_info .closepanel").click(function () {
+			$("div#utility_panel_info").animate({
+				height: "0px"
+			}, "fast");
+			return false;
+		});
+		$("div#utility_panel_search .closepanel").click(function () {
+			$("div#utility_panel_search").animate({
+				height: "0px"
+			}, "fast");
+			return false;
+		});
+
+		$(".utility-menu ul li.search").click(function () {
+			$("div#utility_panel_info").animate({
+				height: "0px"
+			}, "fast");
+
+			if ($("div#utility_panel_search").height() > 0) {
+				$("div#utility_panel_search").animate({
+					height: "0px"
+				}, "fast");
+			} else {
+
+				$("div#utility_panel_search").animate({
+					height: "140px"
+				})
+				.animate({
+					height: "120px"
+				}, "fast");
+			}
+		});
+
+		// overlabel function
+		var thisLabel = [];
+		$('label.overlabel').each(function () {
+			thisLabel = $(this).text();
+			$(this).next().val(thisLabel);
+			$(this).css('visibility', 'hidden');
+		});
+
+		$("input[type='text']").focus(function () {
+			var formLabel = $(this).prev().text();
+			var checkValue = $(this).val();
+			if (checkValue == formLabel) {
+				$(this).val('');
+			}
+		});
+
+		$("textarea").focus(function () {
+			var formLabel = $(this).prev().text();
+			var checkValue = $(this).val();
+			if (checkValue == formLabel) {
+				$(this).val('');
+			}
+		});
+
+		$("input[type='text']").keypress(function () {
+			$(this).css({'color': 'black'});
+		});
+
+		$("input[type='text']").blur(function () {
+			var checkValue = $(this).val();
+			if (!checkValue) {
+				thisLabel = $(this).prev().text();
+				//$(this).val(thisLabel);
+			}
+		});
+
+		$("textarea").blur(function () {
+			var checkValue = $(this).val();
+			if (!checkValue) {
+				thisLabel = $(this).prev().text();
+				$(this).val(thisLabel);
+			}
+		});
+
+		$("select").focus(function () {
+			$(this).css({'color': 'black'});
+		});
+
+		$('.hidden_field').hide();
+		var $_thisValue = "";
+		$("#howhear").change(function () {
+			var $_thisValue = "";
+			$("#howhear option:selected").each(function () {
+				$_thisValue += $(this).val();
+
+				if ($_thisValue == "SE- Other" || $_thisValue == "Referral" || $_thisValue == "School Alum Referral") {
+					$('.hidden_field').show();
+				} else {
+					$('.hidden_field').hide();
+				}
+			});
+		});
+
+		$('li.privacylink').click(function () {
+			var text = $('li.privText').children('div');
+			if (text.css('display') == 'none') {
+				$("div#utility_panel_info").animate({
+					height: "400px"
+				});
+				text.slideDown('300');
+			} else {
+				text.slideUp('300');
+				$("div#utility_panel_info").animate({
+					height: "280px"
+				});
+			}
+		});
+
+		$('optgroup, optgroup > option').css({'font-style': 'normal', 'padding-left': '3px'});
+
+		if (document.getElementById('campus')) {
+			var camp = document.getElementById('campus');
+			VMC_updateSelect('program', camp, '');
+		}
+
+		$('#footer-inner a.3col_core').on('click', function () {
+			// $(".label-fade-out input").removeClass("error");
+			// $("#wf-form-request-lightbox").modal({
+			// persist: true,
+			// onShow:function(dialog){$("#simplemodal-container").addClass("wf-modal");}});
+
+			// for (var i = 0; i < 5; i++){
+			// var t = $("#right #wf-form-request .label-fade-out input").eq(i).val();
+			// console.log(t);
+			// if (t && t != ""){
+			// $("#wf-form-request-lightbox .label-fade-out input").eq(i).val(t);
+			// $("#wf-form-request-lightbox .label-fade-out").eq(i).children("label.text").children("span").hide();
+			// }
+			// }
+			return false;
+		});
+		$('#footer-inner a.wf-btn-request').hide();
+	});
+</script>
+<script src="/js/script-crazyegg.js"></script>
+<script type="text/javascript">
+	$("ul.sf-menu").supersubs({minWidth: 12, maxWidth: 40, extraWidth: .5}).superfish({autoArrows: false}).find('ul').bgIframe({opacity: false});
+	$(".dropmenudiv_a a").mouseover(function () {
+		$(this).css('background', '#963823');
+	}).mouseout(function () {
+		$(this).css('background', '#524B26');
+	});
+
+	// find pdf's
+	$("a[href$='.pdf']").addClass("pdf").click(function () {
+		window.open(this.href);
+		return false;
+	});
+
+	// open all external links in new window
+	// $('a[href^="http://"]').not("[href$='.pdf'],[href*='rasmussen.edu']").filter(function(){
+	// return this.hostname && this.hostname !== location.hostname; })
+	// .attr({ title: "This link will open in new window" })
+	// .click( function() {
+	// _gaq.push(['_trackEvent', 'Outgoing Links', 'Click', this.href]);
+	// window.open(this.href);
+	// return false;
+	// });
+	$('div, td, input').pngFix();
+</script>
+<script type="text/javascript" src="/js/simple_validation.js"></script>
+<script src="/js/program_list-M.js" type="text/javascript"></script><!--
+<script src="/js/Avenir_Heavy_700.font.js" type="text/javascript"></script>
+<script src="/js/Avenir_Light_300.font.js" type="text/javascript"></script>
+-->
+<script type="text/javascript">
+	//	Cufon.replace('.nav h1',{fontFamily: 'Avenir Heavy'});
+	//	Cufon.replace('h1.start_story',{fontFamily: 'Avenir Heavy'});
+	//	Cufon.replace('.sf-menu a', {fontFamily: 'Avenir Heavy', hover: {color: 'black'}});
+	//	Cufon.replace('.dropmenudiv_a a', {fontFamily: 'Avenir Heavy', hover: {color: 'black'}});
+	//	Cufon.replace('.menu a', {fontFamily: 'Avenir Light', hover: {color: 'white'}});
+	//	Cufon.replace('.menu a.current', {fontFamily: 'Avenir Light'});
+	//	Cufon.replace('.menu h2 a', {fontFamily: 'Avenir Light'});
+	//	Cufon.now();
+</script><!-- KISSinsights for rasmussen.edu -->
+<script type="text/javascript">var _kiq = _kiq || [];</script>
+<script type="text/javascript" src="//s3.amazonaws.com/ki.js/13805/2wc.js" async="true"></script>
+
+	<script type="text/javascript">
+		var __cho__ = {"pid": 2685};
+		(function () {
+			var c = document.createElement('script');
+			c.type = 'text/javascript';
+			c.async = true;
+			c.src = document.location.protocol + '//cc.chango.com/static/o.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(c, s);
+		})();
+	</script>
+<SCRIPT TYPE='text/javascript' LANGUAGE='JavaScript' SRC='/elqNow/elqCfg.js'></SCRIPT>
+<SCRIPT TYPE='text/javascript' LANGUAGE='JavaScript' SRC='/elqNow/elqImg.js'></SCRIPT>
+<SCRIPT TYPE='text/javascript' LANGUAGE='JavaScript'><!--//
+
+	var elqPPS = '70';
+
+	//--></SCRIPT>
+<SCRIPT TYPE='text/javascript' LANGUAGE='JavaScript' SRC='/elqNow/elqScr.js'></SCRIPT>
+<SCRIPT TYPE='text/javascript' LANGUAGE='JavaScript'><!--//
+
+	window.onload = initPage;
+
+	function initPage() {
+
+		if (this.GetElqCustomerGUID)
+
+			document.forms["rasmussen"].elements["hdnEloquaCustomerGUID_Rasmussen"].value = GetElqCustomerGUID();
+
+	}
+
+	//--></SCRIPT>
+
+		<!-- Google Code for Remarketing tag -->
+		<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+		<script type="text/javascript">
+			/* <![CDATA[ */
+			var google_conversion_id = 1009384223;
+			var google_conversion_label = "4-ipCMmrgwQQn_an4QM";
+			var google_custom_params = window.google_tag_params;
+			var google_remarketing_only = true;
+			/* ]]> */
+		</script>
+		<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+		<noscript>
+			<div style="display:inline;">
+				<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1009384223/?value=0&amp;label=4-ipCMmrgwQQn_an4QM&amp;guid=ON&amp;script=0"/>
+			</div>
+		</noscript>
+
+		
+		
+		
+		
+		
+		
+		
+				<!-- Google Code for All Ras.edu Visitors -->
+		<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+		<script type="text/javascript">
+			/* <![CDATA[ */
+			var google_conversion_id = 992619978;
+			var google_conversion_label = "SA3SCJaqiwUQytuo2QM";
+			var google_custom_params = window.google_tag_params;
+			var google_remarketing_only = true;
+			/* ]]> */
+		</script>
+		<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+		<noscript>
+			<div style="display:inline;">
+				<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/992619978/?value=0&amp;label=SA3SCJaqiwUQytuo2QM&amp;guid=ON&amp;script=0"/>
+			</div>
+		</noscript>
+		<script type="text/javascript">
+			_bizo_data_partner_id = "5089";
+		</script>
+		<script type="text/javascript">
+			(function () {
+				var s = document.getElementsByTagName("script")[0];
+				var b = document.createElement("script");
+				b.type = "text/javascript";
+				b.async = true;
+				b.src = (window.location.protocol === "https:" ? "https://sjs" : "http://js") + ".bizographics.com/insight.min.js";
+				s.parentNode.insertBefore(b, s);
+			})();
+		</script>
+		<noscript>
+			<img height="1" width="1" alt="" style="display:none;" src="//www.bizographics.com/collect/?pid=5089&fmt=gif"/>
+		</noscript>
+		<!-- Segment Pixel - Rasmussen College - Modeling - DO NOT MODIFY -->
+		<img src="https://secure.adnxs.com/seg?add=1315080&t=2" width="1" height="1"/>
+		<!-- End of Segment Pixel -->
+	</body></html>
