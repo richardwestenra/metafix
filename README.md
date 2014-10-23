@@ -37,4 +37,7 @@ I am continuing from the code in Test 1.9, but working backwards, reintroducing 
 Partially reverting the change from 2.0 to see if I can dial in on the problem. **I'm not even sure whether it worked or not: Facebook wasn't very clear, and then it stopped letting me scrape the page because I've been refreshing too many times. :'(**
 
 ### Test 2.2 ###
-Reverted to the code in Test 1.4, and made only a couple of the changes in test 1.5.
+Reverted to the code in Test 1.4, and made only a couple of the changes in test 1.5. **It didn't work** These changes are clearly insufficient.
+
+### Test 2.3 ###
+Added more changes on top of the changes in test 2.2.
