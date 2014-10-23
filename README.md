@@ -53,3 +53,8 @@ Added more changes on top of the changes the previous test.
 
 ### Test 2.5 ###
 Added more changes on top of the changes the previous test.
+
+**It works! It looks like the problem is probably being caused by the noscript tags inserted by GTM and marinsm tracker codes, which should probably be added in the body, not the head, because they insert iframes and img tags.**
+
+### Test 2.6 ###
+Revert to 1.4 again like we did in 2.2, but this time change only the noscript tags that were identified in the previous tests.
